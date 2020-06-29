@@ -2,13 +2,13 @@
 layout: page
 title: "My first test post"
 date: 2020-06-29 09:00:00
-categories: test
+parent: Blog posts
 ---
 
 This is the test blog post
-#Title 1
-###Title 2
-###Title 3
+#Title 1  
+###Title 2  
+###Title 3  
 
 *Markdown* `things` **should** work here
 
