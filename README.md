@@ -1,1 +1,0 @@
-# neuroenergeticslab.github.io
