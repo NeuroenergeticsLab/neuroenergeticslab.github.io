@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Python stuff
+title: XNAT
 nav_order: 1
 has_children: true
 ---
 
-All the different pyshon stuff
+XNAT setup steps
