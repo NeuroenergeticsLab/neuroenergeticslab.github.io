@@ -5,7 +5,7 @@ parent: XNAT
 nav_order: 3
 ---
 
-1. Go to [http://localhost](http://localhost) and login with `user: admin` and `password: admin`
+1. Go to [http://localhost](http://localhost) and login
 2. Set the Path Translation by clicking on **Administer** (top bar) &#8594; **Plugin Settings**
     > ![step 2](/pics/5.png)
 
