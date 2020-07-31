@@ -198,7 +198,7 @@ print(project.exists())
 
     ```python
     resource = project.subject('<subject id>').experiment('<session id>').scan('<scan id>').resource('<resource id>')
-    resource.get('local path')
+    resource.get('<local directory path>') # this is where the files (in a zip archive) will be downloaded to
     ```
 
 ### Upload data
@@ -239,7 +239,7 @@ print(project.exists())
     project = interface.project('test')
 
     for subject in project.subjects():
-        for session in subjects.experiments():
+        for session in subject.experiments():
             for scan in session.scans():
 
                 if scan.attrs.mget({'type'})[0] == 'mprage':
