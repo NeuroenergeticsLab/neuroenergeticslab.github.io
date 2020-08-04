@@ -229,7 +229,7 @@ print(project.exists())
 
 ### Simple processing example
 
-- Go through each subject in a `test` project, download files from `nifti` resource for `mprage` scans, extract the brains using fsl `bet` command and upload the result back to the nifti resource
+- Go through each subject in a `test` project, download files from `nifti` resource for `mprage` scans, extract the brains using fsl `bet` command and upload the result back to the `nifti` resource
 
     ```python
     import pyxnat
