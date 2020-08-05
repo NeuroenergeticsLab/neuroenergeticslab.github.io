@@ -15,7 +15,13 @@ nav_order: 4
     ssh -L<localport>:localhost:<remoteport> <username>@xnat.tumnic.mgruber.eu
     ```
 
-    `localport` and `remoteport` can be the same (4-digit) number.
+    local computer ↔ `localport` ↔ remote server ↔ `remoteport` ↔ jupyter server
+
+    - `localport` is the port that will be open on local computer, it will be used when opening the notebook in the browser
+
+    - `remoteport` is the port that will connect the remote server with jupyter server
+
+    These two (4-digit) numbers can be the same.
 
 3. Change directory to the common notebooks folder (can be any folder on the server)
 
@@ -23,21 +29,21 @@ nav_order: 4
     cd <path/to/jupyter/folder>
     ```
 
-4. Start jupyter server (from the server terminal)
+4. Start jupyter server
 
     ```bash
-    jupyter notebook --no-browser --port=<port> &
+    jupyter notebook --no-browser --port=<remoteport> &
     ```
 
     `--no-browser` to not open browser window (need to do this locally, not on the server)
 
-    `--port` enter the same (remote) port number from step **3**
+    `--port` enter the same `remoteport` number from step **2**
 
     `&` tells the terminal to run the server in the background (so that the terminal is still available to enter commands etc.)
 
 5. Open the notebook in a browser window
 
-    type `localhost:<port>` in the url window
+    type `localhost:<localport>` in the url window (localport from step **2**)
     or copy and paste one of these lines
 
     ![open-notebook](/pics/open-notebook.png)
@@ -45,7 +51,7 @@ nav_order: 4
 
 6. Reconnect to the notebook
 
-    Connect to the server (step **3**) and check the running servers:
+    Connect to the server (step **2**) and check the running jupyter servers:
 
     ```bash
     jupyter notebook list
