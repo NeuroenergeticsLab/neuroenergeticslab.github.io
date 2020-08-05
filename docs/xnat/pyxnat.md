@@ -74,7 +74,12 @@ Pyxnat library provides a nice API interface to access data on XNAT.
 
 The data is organized hierarchically:
 
-`Project` → `Subject` → `Experiment` → `Scan` → `Resource` → `File`
+`Project`
+└── `Subject`
+    └── `Experiment`
+        └── `Scan`
+            └── `Resource`
+                └── `File`
 
 ### Setup the connection
 - Create a configuration file
