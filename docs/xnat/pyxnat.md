@@ -5,7 +5,7 @@ parent: XNAT
 nav_order: 4
 ---
 
-## Connect to Jupyter Notebook server on DaVinci
+## Connect to Jupyter Notebook server on a remote server
 
 1. Open terminal (PowerShell on Windows 10)
 2. Change directory to the common notebooks folder (can be any folder)
@@ -14,7 +14,7 @@ nav_order: 4
     cd <path/to/jupyter/folder>
     ```
 
-3. SSH to DaVinci with port forwarding option
+3. SSH to the remote server with port forwarding option
 
     ```bash
     ssh -L<localport>:localhost:<remoteport> <username>@xnat.tumnic.mgruber.eu
@@ -22,7 +22,7 @@ nav_order: 4
 
     `localport` and `remoteport` can be the same (4-digit) number.
 
-4. Start jupyter server (from DaVinci terminal)
+4. Start jupyter server (from the server terminal)
 
     ```bash
     jupyter notebook --no-browser --port=<port> &
@@ -72,7 +72,7 @@ The data is organized hierarchically:
 ### Setup the connection
 - Create a configuration file
 
-    On terminal connected to DaVinci:
+    On terminal connected to the remote server:
 
     ```bash
     cd
