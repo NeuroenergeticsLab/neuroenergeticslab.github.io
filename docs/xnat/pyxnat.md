@@ -8,19 +8,20 @@ nav_order: 4
 ## Connect to Jupyter Notebook server on a remote server
 
 1. Open terminal (PowerShell on Windows 10)
-2. Change directory to the common notebooks folder (can be any folder)
 
-    ```bash
-    cd <path/to/jupyter/folder>
-    ```
-
-3. SSH to the remote server with port forwarding option
+2. SSH to the remote server with port forwarding option
 
     ```bash
     ssh -L<localport>:localhost:<remoteport> <username>@xnat.tumnic.mgruber.eu
     ```
 
     `localport` and `remoteport` can be the same (4-digit) number.
+
+3. Change directory to the common notebooks folder (can be any folder on the server)
+
+    ```bash
+    cd <path/to/jupyter/folder>
+    ```
 
 4. Start jupyter server (from the server terminal)
 
@@ -30,7 +31,7 @@ nav_order: 4
 
     `--no-browser` to not open browser window (need to do this locally, not on the server)
 
-    `--port` enter the same port number from step **3**
+    `--port` enter the same (remote) port number from step **3**
 
     `&` tells the terminal to run the server in the background (so that the terminal is still available to enter commands etc.)
 
