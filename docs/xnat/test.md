@@ -7,4 +7,6 @@ nav_order: 5
 
 ## Test
 
-
+```python
+print('Hello!')
+```
