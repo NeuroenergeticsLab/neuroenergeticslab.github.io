@@ -7,8 +7,4 @@ nav_order: 5
 
 ## Test
 
-Here is my test page
 
-```python
-print('hello')
-```
