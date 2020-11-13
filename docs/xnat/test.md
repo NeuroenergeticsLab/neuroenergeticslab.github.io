@@ -26,4 +26,6 @@ General advantages includes its open-source user management while strictly abidi
 Its architecture constitutes a pipeline which allows for data to be processed on multiple levels starting from the naming of components and ranging to their automated analyzation and association with related data. Information are stored in BIDS which are accessible to preconfigured python scripts and documentation. In order to get a grasp of XNAT’s workflow we provide you with a test data set that you can download here. Furthermore, the entirety of this documentation is available as a pdf version here.
 
 
+**Disclaimer**
+*The XNAT service relies on a connection to the internet. Please consult your local data privacy department before uploading data to XNAT.*
 
