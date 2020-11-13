@@ -4,7 +4,7 @@ title: Glossary
 nav_order: 3
 ---
 
-# Glossary
+# Glossarys
 
 **BIDS** – *Brain imaging data structure*; [Data structure, not a format]; A standard for organizing, annotating, and describing data collected during neuroimaging experiments. It provides the guidelines of how to organize and name the data. All our XNAT piplelines are BIDS.
 
