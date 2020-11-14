@@ -27,5 +27,5 @@ Its architecture constitutes a pipeline which allows for data to be processed on
 
 
 
-<br/> <br/> **Disclaimer** <br/> *The XNAT service relies on a connection to the internet. Please consult your local data privacy department before uploading data to XNAT.*
+<br/> <br/> **Disclaimer:** *The XNAT service relies on a connection to the internet. Please consult your local data privacy department before uploading data to XNAT.*
 

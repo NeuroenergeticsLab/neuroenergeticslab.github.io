@@ -19,3 +19,8 @@ nav_order: 2
     4. `docker-compose up -d`
 5. Check that it ran without error typing in the terminal:
     `docker-compose logs -f --tail=20 xnat-web`
+
+
+
+<br/>
+- [x] You are now ready to get started!
