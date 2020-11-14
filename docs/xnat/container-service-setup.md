@@ -2,7 +2,7 @@
 layout: default
 title: Container service setup
 parent: XNAT
-nav_order: 3
+nav_order: 4
 ---
 
 1. Go to [http://localhost](http://localhost) and login
