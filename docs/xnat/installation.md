@@ -2,7 +2,7 @@
 layout: default
 title: Installation
 parent: XNAT
-nav_order: 1
+nav_order: 2
 ---
 
 

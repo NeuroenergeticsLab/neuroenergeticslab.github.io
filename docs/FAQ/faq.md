@@ -1,7 +1,16 @@
 ---
 layout: default
-title: FAQ
-nav_order: 4
+title: Installation
+parent: FAQ
+nav_order: 1
 ---
 
-# Frequently asked questions
+# Installation 
+
+<br/>	
+
+<details>
+<summary>How do I install XNAT?</summary>
+<br>
+Here will be an explanation
+</details>
