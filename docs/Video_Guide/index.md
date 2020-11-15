@@ -5,4 +5,4 @@ nav_order: 2
 has_children: true
 ---
 
-Video Guides will appear here
+Here you can find helpful video guides that walk you through the major steps of using XNAT.

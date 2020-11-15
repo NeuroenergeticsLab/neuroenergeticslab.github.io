@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Web links
+title: Weblinks
 nav_order: 7
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introduction to XNAT
+title: Introduction
 parent: XNAT
 nav_order: 1
 ---
