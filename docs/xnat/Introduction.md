@@ -14,7 +14,7 @@ XNAT is an open source imaging informatics platform developed by the Neuroinform
 
 ## What does XNAT do?
 
-The XNAT neuroimaging pipeline provides a complete data workflow. Collected varieties of data types such as neuroimaging data, metadata, questionnaires and genetics are funneled through XNAT’s symbiosis with Docker and Jupyter to provide automated analysis and documentation. As we promote the concept of open science, we especially highlight that XNAT allows the sharing of data, code and results with fellow researchers.
+The XNAT neuroimaging pipeline provides a complete data workflow. Collected varieties of data types such as neuroimaging data, metadata, questionnaires and genetics are funneled through XNAT’s symbiosis with [Docker](../Glossary/glossary.md/#Docker) and [Jupyter](../Glossary/glossary.md/#Jupyter) to provide automated analysis and documentation. As we promote the concept of open science, we especially highlight that XNAT allows the sharing of data, code and results with fellow researchers.
 
 
 ## Why should I use XNAT?
@@ -23,7 +23,7 @@ General advantages includes its open-source user management while strictly abidi
 
 ## How does XNAT work?
 
-Its architecture constitutes a pipeline which allows for data to be processed on multiple levels starting from the naming of components and ranging to their automated analyzation and association with related data. Information are stored in BIDS which are accessible to preconfigured python scripts and documentation. In order to get a grasp of XNAT’s workflow we provide you with a test data set that you can download here. Furthermore, the entirety of this documentation is available as a pdf version here.
+Its architecture constitutes a pipeline which allows for data to be processed on multiple levels starting from the naming of components and ranging to their automated analyzation and association with related data. Information are stored in BIDS which are accessible to preconfigured python scripts and documentation. In order to get a grasp of XNAT’s workflow we provide you with a test data set that you can download [here](../Test_Data/index.md). Furthermore, the entirety of this documentation is available as a pdf version [here](pdf.md).
 
 
 

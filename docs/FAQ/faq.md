@@ -12,5 +12,11 @@ nav_order: 1
 <details>
 <summary>How do I install XNAT?</summary>
 <br>
-Here will be an explanation
+
+Here you can find a more extensive explanation .........
+
+
+
+
 </details>
+
