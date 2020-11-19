@@ -2,7 +2,7 @@
 layout: default
 title: Download manual
 parent: XNAT
-nav_order: 4
+nav_order: 3
 ---
 
 # XNAT manual pdf download
