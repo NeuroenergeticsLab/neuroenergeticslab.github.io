@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Container service setup
-parent: XNAT
-nav_order: 4
+parent: Setup
+grand_parent: XNAT
+nav_order: 3
 ---
 
 1. Go to [http://localhost](http://localhost) and login

@@ -2,7 +2,7 @@
 layout: default
 title: FAQ
 nav_order: 4
-has_children: true
+has_toc: false
 ---
 
 # Frequently asked questions
@@ -18,7 +18,7 @@ Navigate to your subtopic of choice and we will provide you with help!
 <summary>How do I install XNAT?</summary>
 <br>
 
-Here you can find a more extensive <a href="../xnat/installation.html">explanation.</a>
+Here you can find a more extensive <a href="../xnat/Setup/installation.html">explanation.</a>
 
 <br/><br/></details>
 

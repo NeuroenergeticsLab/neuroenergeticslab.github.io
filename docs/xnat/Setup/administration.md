@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Administration
-parent: XNAT
-nav_order: 3
+parent: Setup
+grand_parent: XNAT
+nav_order: 2
 ---
 
 *This first section was copied from [here](https://wiki.xnat.org/display/XW2/Part+2%3A+XNAT+Administration).*

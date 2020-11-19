@@ -1,9 +1,11 @@
 ---
 layout: default
 title: Installation
-parent: XNAT
-nav_order: 2
+parent: Setup
+grand_parent: XNAT
+nav_order: 1
 ---
+
 
 
 1. Clone the xnat-docker-compose repository either directly from xnat:

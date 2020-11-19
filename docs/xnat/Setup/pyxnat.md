@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Jupyter Notebook and Pyxnat
-parent: XNAT
-nav_order: 5
+parent: Setup
+grand_parent: XNAT
+nav_order: 4
 ---
 
 ## Connect to Jupyter Notebook server on a remote server
