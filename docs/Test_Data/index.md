@@ -11,3 +11,4 @@ Available below is a [DICOM](../Glossary/glossary.md/#DICOM "Digital imaging and
 
 [Download](logo.png.zip){: .btn} -> File not available yet
 
+[Download](../../Data/test_data.zip){: .btn} 
