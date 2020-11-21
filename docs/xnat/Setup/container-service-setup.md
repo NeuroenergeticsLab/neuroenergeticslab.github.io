@@ -2,7 +2,7 @@
 layout: default
 title: Container service setup
 parent: Setup
-grand_parent: XNAT
+grand_parent: XNAT / Jupyter
 nav_order: 3
 ---
 

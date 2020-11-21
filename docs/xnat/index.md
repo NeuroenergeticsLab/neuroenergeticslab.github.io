@@ -1,14 +1,14 @@
 ---
 layout: default
-title: XNAT
+title: XNAT / Jupyter
 has_children: true
 nav_order: 1
 ---
 
-# Welcome to XNAT
+# Welcome to XNAT and Jupyter
 
 
-The following manual will guide you through [XNAT](../Glossary/glossary.md/#XNAT "Extensible Neuroimaging Archive Toolkit"), its [setup](Setup/index.md), its [use](Manual/index.md), and many other handy features. If you are more of a visual learner check out the [video guide](../Video_Guide/index.md)! If you encounter unfamiliar words - like [DICOM](../Glossary/glossary.md/#DICOM "Digital imaging and communications in medicine") - just click & you can find them in the [glossary](../Glossary/glossary.md). Alternatively, for selected words you can hover with your cursor over the word for a short definition. For further help visit the [FAQ.](../FAQ/index.md)
+The following manual will guide you through [XNAT](../Glossary/glossary.md/#XNAT "Extensible Neuroimaging Archive Toolkit") & [Jupyter](../Glossary/glossary.md/#Jupyter), their [setup](Setup/index.md), [use](Manual/index.md), and many other handy features. If you are more of a visual learner check out the [video guide](../Video_Guide/index.md)! If you encounter unfamiliar words - like [DICOM](../Glossary/glossary.md/#DICOM "Digital imaging and communications in medicine") - just click & you can find them in the [glossary](../Glossary/glossary.md). Alternatively, for selected words you can hover with your cursor over the word for a short definition. For further help visit the [FAQ.](../FAQ/index.md)
 
 
 ## Introduction 
@@ -33,8 +33,6 @@ Its architecture constitutes a pipeline which allows for data to be processed on
 
 
 <br/> <br/> **Disclaimer:** *The XNAT service relies on a connection to the internet. Please consult your local data privacy department before uploading data to XNAT.*
-
-
 
 
 

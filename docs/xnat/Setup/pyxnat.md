@@ -2,7 +2,7 @@
 layout: default
 title: Jupyter Notebook and Pyxnat
 parent: Setup
-grand_parent: XNAT
+grand_parent: XNAT / Jupyter
 nav_order: 4
 ---
 

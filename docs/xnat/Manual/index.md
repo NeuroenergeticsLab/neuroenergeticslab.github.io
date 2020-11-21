@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manual
-parent: XNAT
+parent: XNAT / Jupyter
 has_children: true
 nav_order: 2
 ---

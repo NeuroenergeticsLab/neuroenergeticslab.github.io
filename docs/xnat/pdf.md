@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Download manual
-parent: XNAT
+parent: XNAT / Jupyter
 nav_order: 3
 ---
 
 # XNAT manual pdf download
-<br/>	
 
-[Click me](https://github.com/){: .btn}  -> Not ready yet
+Available below is a pdf-version of the manual. 
+
+[Download](../../pics/logo.png){: .btn}  -> File not available yet

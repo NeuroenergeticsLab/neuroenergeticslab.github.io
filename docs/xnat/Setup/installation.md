@@ -2,7 +2,7 @@
 layout: default
 title: Installation
 parent: Setup
-grand_parent: XNAT
+grand_parent: XNAT / Jupyter
 nav_order: 1
 ---
 

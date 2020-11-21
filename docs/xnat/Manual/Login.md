@@ -2,13 +2,13 @@
 layout: default
 title: Login 
 parent: Manual
-grand_parent: XNAT
+grand_parent: XNAT / Jupyter
 nav_order: 1
 ---
 
 # Login and project creation
 
-XNAT has a web interface that can be accessed by going to the [address](https://central.xnat.org/app/template/Login.vm#!) from any computer with an internet connection. Once the website is loaded, log in using your user credentials. 
+XNAT has a web interface that can be accessed by going to the [webaddress](https://central.xnat.org/app/template/Login.vm#!) from any computer with an internet connection. Once the website is loaded, log in using your user credentials. 
 
 
 ![Login](../../../pics/Login.png)
