@@ -12,6 +12,3 @@ Available below is a [DICOM](../Glossary/glossary.md/#DICOM "Digital imaging and
 [Download](../../pics/logo.png.zip){: .btn} -> File not available yet
 
 
-Hello world
-
-
