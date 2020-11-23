@@ -54,7 +54,7 @@ Now you can proceed to the prearchive by navigating to *Upload > Prearchive*. Th
 2.	Click on *change projects*
 3.	Select the project to which this project belongs to and click on *Ok*
 4.	Reload the website, check the study like in 1.) and  click on *Review and Archive*
-5.	Edit the information and proceed with *Submit* [(Fig.5)](#Manual/Login/information). You successfully uploaded one subject scan to the archive.
+5.	Edit the information and proceed with *Submit* [(Fig.5)](#Manual/Login/information). You successfully uploaded one subject scan to the archive
 6.	To check the uploaded study click on *Browse > My project > Test project* and select the subject ID and session [(Fig.6)](#Manual/Login/Archive)
 
 <a name="Manual/Login/Prearchive"></a>
@@ -71,7 +71,7 @@ Now you can proceed to the prearchive by navigating to *Upload > Prearchive*. Th
 | **Fig.5** *Subject information form.* |
 
 
-When being in the archive you can click on *Manage Files* to view the DICOMS of the scan (Fig. 6). By clicking *View Images*, XNAT provides you with a preliminary graphical representation of your imaging data (DICOMS).
+When being in the archive you can click on *Manage Files* to view the DICOMS of the scan [(Fig.6)](#Manual/Login/Archive). By clicking *View Images*, XNAT provides you with a preliminary graphical representation of your imaging data (DICOMS).
 
 <a name="Manual/Login/Archive"></a>
 
@@ -84,7 +84,7 @@ When being in the archive you can click on *Manage Files* to view the DICOMS of 
 
 ### 1.2. Troubleshooting
 
-If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.4)](#Manual/Login/Prearchive) nor in the archive (Fig.6) of the XNAT Intranet, try the following: 
+If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.4)](#Manual/Login/Prearchive) nor in the archive [(Fig.6)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
 
 - You might have forgotten to assign a proper project name to the subject. In this case, the data cannot be assigned. Ask your administrator to have a look in his prearchive to see if there are un-assigned data floating around
 

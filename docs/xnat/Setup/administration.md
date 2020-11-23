@@ -35,10 +35,8 @@ This practical session breaks XNAT Administration and Project Setup into the fol
     4. Select the project to which this project belongs to and click on **Ok**
     4. Reload the website, check the study like in (1) and click on **Review and Archive**
     > ![step 4](/pics/1.png)
-
 5. Edit the information and click on **Submit**
     > ![step 5](/pics/2.png)
-
 6. To check the uploaded study click on **Browse** &#8594; **My project** &#8594; **Test project** and select the subject id and session
     > ![step 6.1](/pics/3.png)
     > ![step 6.2](/pics/4.png)
