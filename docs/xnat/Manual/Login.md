@@ -7,14 +7,17 @@ nav_order: 1
 ---
 
 
-#### ToC:
+### ToC:
 
 | Section | Link | 
 | :---: | --- |
 | 1.1.| [Login to XNAT](#11-login-to-xnat)|
-| 1.2.| [Create Project and manually upload data](#12-create-project-and-manually-upload-data)|
-| 1.3.| [Troubleshooting](#13-troubleshooting) |
-| 1.4.| [Automated upload via script (DICOM images)](#14-automated-upload-via-script-dicom-images) |
+| 1.2.| [Create Project](#12-create-project)|
+| 1.3.| [Upload of data](#13-upload-of-data)|
+|     | 1.3.1. [Manual upload](#131-manual-upload) |
+|     | 1.3.2. [Automated upload via script (DICOM images)](#132-automated-upload-via-script-dicom-images) |
+|     | 1.3.3. [Automated upload: PAR-REC Python script](#133-automated-upload-par-rec-python-script)
+| 1.4.| [Troubleshooting](#14-troubleshooting) |
 
 
 <br/>	
@@ -44,7 +47,7 @@ After you logged in, you can go to the project of interest by clicking on (i) *B
 
 <br/>	
 
-### 1.2. Create Project and manually upload data
+### 1.2. Create Project 
 
 To create a new project navigate to the header and click *New > Project* and give it a title, running title, project ID [(Fig.3)](#Manual/Login/Create). Here you can also provide further information, such as keyword. Lastly, define if the project is private, protected, or public and click *Create*.
 
@@ -55,6 +58,11 @@ To create a new project navigate to the header and click *New > Project* and giv
 |:--:| 
 | **Fig.3** *Create new project.* |
 
+<br/>	
+
+### 1.3 Upload of data
+
+#### 1.3.1 Manual upload
 
 Now you can upload [(Fig.4)](#Manual/Login/Compressed_Uploader) a DICOM.zip to the *prearchive* [(Fig.5)](#Manual/Login/Prearchive) as explained in the following steps. If you do not have a data set at hand you can download our [test data](../../Test_Data/index.md) set.
 
@@ -106,22 +114,11 @@ When being in the archive you can click on *Manage Files* to view the DICOMS of 
 
 <br/>	
 
-### 1.3. Troubleshooting
-
-If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.5)](#Manual/Login/Prearchive) nor in the archive [(Fig.7)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
-
-- You might have forgotten to assign a proper project name to the subject. In this case, the data cannot be assigned. Ask your administrator to have a look in his prearchive to see if there are un-assigned data floating around
-
-
-<br/>
-
-### 1.4. Automated upload via script (DICOM images)
+#### 1.3.2 Automated upload via script (DICOM images)	
 
 If you want to upload several subjects at once, e.g. if you want to put an already conducted study / project on XNAT, you may consider using an upload script to prevent uploading each subject manually. As a first step, make sure that you created a new project on XNAT (this can only be done by the administrator), see [figure 3](#Manual/Login/Create). Make sure to go to *Manage > Enable anonymization script*.
 
-<br/>
-
-#### Section 1 (probably to be deleted)
+Furthermore, make sure to have downloaded [DCMTK](https://support.dcmtk.org/docs/index.html "DICOM ToolKit package"). 
 
 Here you can download an example script :
 
@@ -134,7 +131,6 @@ Here you can download an example script :
 5. Important: make sure that the project is named correctly, otherwise the subjects cannot be assigned correctly
 
 
-
 `endDCM2xnat manually v0.1 (alpha)`
 
 Usage: `./sendDCM2xnat <subjectID> <session> <project> <serverIP> <serverPORT> <Subject DICOM directory>`
@@ -143,10 +139,10 @@ e.g: `bash ./sendDCM2xnat.sh fp666 petmr p_fpet_vis 10.32.48.142 8104 /Users/gab
 
 `<Subject DICOM directory>` Subject folder path with series as subfolders and DICOM files within each series folder
 
+
 <br/>
 
-#### Section 2; Automatic upload: PAR-REC script
-
+#### 1.3.3. Automated upload: PAR-REC Python script
 
 **This only works in a Linux/Mac environment!**
 Additionally, via the script, series can be re-named and data structure / naming can be manipulated.
@@ -193,11 +189,14 @@ This last snippet creates one zipped (.tar.gz) folder, in this case named 'qBOLD
 It then uploads all folders and subfolders that are inside qBOLD.tar.gz to the subject's resources folder.
 
 
+<br/>
 
 
+### 1.4. Troubleshooting
 
+If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.5)](#Manual/Login/Prearchive) nor in the archive [(Fig.7)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
 
-
+- You might have forgotten to assign a proper project name to the subject. In this case, the data cannot be assigned. Ask your administrator to have a look in his prearchive to see if there are un-assigned data floating around
 
 
 
