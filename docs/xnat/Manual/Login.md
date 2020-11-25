@@ -154,8 +154,11 @@ The following code bits need to be run via the terminal:
 2. Install pyxnat: `pip install pyxnat`
 3. Install jupyter: `conda install jupyter`
 4. Copy the script .xnatPass (please note: without any extension and with the dot!) to your home folder and apply chmod +x (to get execute permissions)
+	4. Linux terminal: `echo '{"server": "<xnat_ip>", "user": "<user>", "password": "<password>"}' > xnat_config.cfg`
+	4. Initiate connection: `interface = pyxnat.Interface(config='.xnatPass.cfg')`
 5. Change USER and PASSWORD in xnatPASS to your xnat credentials, e.g. +sepp@https://xnat.tumnic.mgruber.eu=MYXNATPASSWORD
-6. Copy and open \tum.de\ValNeuroLab - Dokumente\DataPipeline\xnat\scripts\sendPAR-RECfiles2xnat.ipynb via jupyter notebooks or Visual Studio Code with Python extension installed
+6. Copy and open the following script via jupyter notebooks or Visual Studio Code with Python extension installed:
+	6. [Download](https://tumde.sharepoint.com/:u:/s/ValNeuroLab/EfQgPwNHQOFKqCuQkjqwtwgBxjBLVJmC_4hX8zH7dX1q4w?e=6d2Dac){: .btn} 
 7. Be sure that subject-id and session match your project description in XNAT
 8. Within the script, you can define which subjects, series etc. you want to upload
 9. All series which are correctly named (defined in your naming script) will be automatically converted to BIDS data format
