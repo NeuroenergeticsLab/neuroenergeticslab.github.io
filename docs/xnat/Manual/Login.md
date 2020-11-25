@@ -11,10 +11,10 @@ nav_order: 1
 
 | Section | Link | 
 | :---: | --- |
-| 1.0.| [Login to XNAT](#10-login-to-xnat)|
-| 1.1.| [Create Project and manually upload data](#11-create-project-and-manually-upload-data)|
-| 1.2.| [Troubleshooting](#12-troubleshooting) |
-| 1.3.| [Automated upload via script (DICOM images)](#13-automated-upload-via-script-dicom-images) |
+| 1.1.| [Login to XNAT](#11-login-to-xnat)|
+| 1.2.| [Create Project and manually upload data](#12-create-project-and-manually-upload-data)|
+| 1.3.| [Troubleshooting](#13-troubleshooting) |
+| 1.4.| [Automated upload via script (DICOM images)](#14-automated-upload-via-script-dicom-images) |
 
 
 <br/>	
@@ -22,7 +22,7 @@ nav_order: 1
 # 1.0. Login and project creation
 
 
-### 1.0. Login to XNAT 
+### 1.1. Login to XNAT 
 
 
 XNAT has a web interface that can be accessed by going to the [web-address](https://central.xnat.org/app/template/Login.vm#!) from any computer with an internet connection. Once the website is loaded, log in using your user credentials [(Fig.1).](#Manual/Login/Login)
@@ -44,7 +44,7 @@ After you logged in, you can go to the project of interest by clicking on (i) *B
 
 <br/>	
 
-### 1.1. Create Project and manually upload data
+### 1.2. Create Project and manually upload data
 
 To create a new project navigate to the header and click *New > Project* and give it a title, running title, project ID [(Fig.3)](#Manual/Login/Create). Here you can also provide further information, such as keyword. Lastly, define if the project is private, protected, or public and click *Create*.
 
@@ -106,7 +106,7 @@ When being in the archive you can click on *Manage Files* to view the DICOMS of 
 
 <br/>	
 
-### 1.2. Troubleshooting
+### 1.3. Troubleshooting
 
 If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.5)](#Manual/Login/Prearchive) nor in the archive [(Fig.7)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
 
@@ -115,7 +115,7 @@ If you are sure that you sent the data to XNAT but you cannot find them either i
 
 <br/>
 
-### 1.3. Automated upload via script (DICOM images)
+### 1.4. Automated upload via script (DICOM images)
 
 If you want to upload several subjects at once, e.g. if you want to put an already conducted study / project on XNAT, you may consider using an upload script to prevent uploading each subject manually. As a first step, make sure that you created a new project on XNAT (this can only be done by the administrator), see [figure 3](#Manual/Login/Create). Make sure to go to *Manage > Enable anonymization script*.
 
