@@ -156,7 +156,7 @@ The following code bits need to be run via the terminal:
 4. Copy the script .xnatPass (please note: without any extension and with the dot!) to your home folder and apply chmod +x (to get execute permissions)
 	4. Linux terminal: `echo '{"server": "<xnat_ip>", "user": "<user>", "password": "<password>"}' > xnat_config.cfg`
 	4. Initiate connection: `interface = pyxnat.Interface(config='.xnatPass.cfg')`
-5. Change USER and PASSWORD in xnatPASS to your xnat credentials, e.g. +sepp@https://xnat.tumnic.mgruber.eu=MYXNATPASSWORD
+5. Change USER and PASSWORD in xnatPASS to your XNAT credentials
 6. Copy and open the following script via jupyter notebooks or Visual Studio Code with Python extension installed:
 	6. [Download](https://tumde.sharepoint.com/:u:/s/ValNeuroLab/EfQgPwNHQOFKqCuQkjqwtwgBxjBLVJmC_4hX8zH7dX1q4w?e=6d2Dac){: .btn} 
 7. Be sure that subject-id and session match your project description in XNAT
@@ -182,7 +182,7 @@ for sid in sids:
     subj_erc_id="p%0.3d" % sid
     sess_erc_id = subj_erc_id + '-' + session_erc  
     sess_erc = project_erc.subject(subj_erc_id).experiment(sess_erc_id)
-    base_folder = '/home/tumnic/Documents/erc-wp1/resources_upload/'
+    base_folder = '/home/Path_placeholder'
     folder_with_qbold_results = base_folder + 'erc-wp1-' + subj_erc_id
     ! cd {folder_with_qbold_results};tar -czf qBOLD.tar.gz *
     sess_erc.resource('qBOLD').put_zip(os.path.join(folder_with_qbold_results,'qBOLD.tar.gz'))
