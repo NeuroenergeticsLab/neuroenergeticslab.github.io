@@ -27,7 +27,7 @@ nav_order: 2
 | :---: | --- |
 | 2.1.| [Manual upload](#21-manual-upload) |
 | 2.2.| [Automated upload via script (DICOM images)](#22-automated-upload-via-script-dicom-images) |
-| 2.3.| [Automated upload: PAR-REC Python script](#23-automated-upload-par-rec-python-script)
+| 2.3.| [Automated upload: PAR-REC Python script](#23-automated-upload-par-rec-python-script) |
 | 2.4.| [Troubleshooting](#24-troubleshooting) |
 
 </details>
@@ -38,7 +38,7 @@ nav_order: 2
 
 ### 2.1. Manual upload
 
-Now you can upload [(Fig.4)](#Manual/Login/Compressed_Uploader) a DICOM.zip to the *prearchive* [(Fig.5)](#Manual/Login/Prearchive) as explained in the following steps. If you do not have a data set at hand you can download our [test data](../../Test_Data/index.md) set.
+Now you can upload [(Fig.1)](#Manual/Login/Compressed_Uploader) a DICOM.zip to the *prearchive* [(Fig.2)](#Manual/Login/Prearchive) as explained in the following steps. If you do not have a data set at hand you can download our [test data](../../Test_Data/index.md) set.
 
 Clicking the XNAT icon once more shows the newly created project in the project section.
 In order to upload subject data click *Upload > Images > Compressed Uploader*. Proceed by selecting your project and choosing a destination.
@@ -47,7 +47,7 @@ In order to upload subject data click *Upload > Images > Compressed Uploader*. P
 
 | ![Compressed Uploader](../../../pics/Select_Project.png) | 
 |:--:| 
-| **Fig.4** *Compressed uploader.* |
+| **Fig.1** *Compressed uploader.* |
 
 
 By clicking *Prearchive* the data will temporarily be stored in a medium where you can control and change subject information before forwarding them to the archive. You can bypass that configuration by directly archiving your session files. Now you can choose the data to be uploaded. 
@@ -60,21 +60,21 @@ Click *Begin Upload* to upload the imaging data to the prearchive. This takes so
 2.	Click on *change projects*
 3.	Select the project to which this project belongs to and click on *Ok*
 4.	Reload the website, check the study like in 1.) and  click on *Review and Archive*
-5.	Edit the information and proceed with *Submit* [(Fig.6)](#Manual/Login/information). You successfully uploaded one subject scan to the archive
-6.	To check the uploaded study click on *Browse > My project > Test project* and select the subject ID and session [(Fig.7)](#Manual/Login/Archive)
+5.	Edit the information and proceed with *Submit* [(Fig.3)](#Manual/Login/information). You successfully uploaded one subject scan to the archive
+6.	To check the uploaded study click on *Browse > My project > Test project* and select the subject ID and session [(Fig.4)](#Manual/Login/Archive)
 
 <a name="Manual/Login/Prearchive"></a>
 
 | ![Prearchive](../../../pics/1.png) | 
 |:--:| 
-| **Fig.5** *Prearchive.* |
+| **Fig.2** *Prearchive.* |
 
 
 <a name="Manual/Login/information"></a>
 
 | ![Subject information form](../../../pics/2.png) | 
 |:--:| 
-| **Fig.6** *Subject information form.* |
+| **Fig.3** *Subject information form.* |
 
 
 When being in the archive you can click on *Manage Files* to view the DICOMS of the scan [(Fig.7)](#Manual/Login/Archive). By clicking *View Images*, XNAT provides you with a preliminary graphical representation of your imaging data (DICOMS).
@@ -83,7 +83,7 @@ When being in the archive you can click on *Manage Files* to view the DICOMS of 
 
 | ![Session page](../../../pics/3.png) | 
 |:--:| 
-| **Fig.7** *Archive session page.* |
+| **Fig.4** *Archive session page.* |
 
 
 <br/>	
@@ -165,18 +165,127 @@ for sid in sids:
 This last snippet creates one zipped (.tar.gz) folder, in this case named 'qBOLD.tar.gz'.  
 It then uploads all folders and subfolders that are inside qBOLD.tar.gz to the subject's resources folder.
 
-
 <br/>
 
 
 ### 2.4. Troubleshooting
 
-If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.5)](#Manual/Login/Prearchive) nor in the archive [(Fig.7)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
+If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.2)](#Manual/Login/Prearchive) nor in the archive [(Fig.4)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
 
 - You might have forgotten to assign a proper project name to the subject. In this case, the data cannot be assigned. Ask your administrator to have a look in his prearchive to see if there are un-assigned data floating around
 
 
+<br/>
 
+
+### 2.5. Add data to existing project
+
+
+Depending on where the data are, that you want to upload, different ways of uploading apply: 
+
+1. The data are on the local clinic server system and you are also in the local environment (i.e. in the office)
+	1. If this is the case, see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
+2. The data are on your local machine: It will take a lot of time to upload data to the wks via the GUI! There are two options: 
+	2. [Manual Upload](#a-manual-upload): Login via VPN to the local server system and upload from there (if you have big data, this is the only option) (See section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script))
+	2. [Upload via Python notebook (scp)](#b-upload-via-python-notebook-scp): If you only have small files: Upload to resources (or scans) following the two options displayed below 
+
+
+#### A. Manual Upload
+
+You can manually upload images to the resource folder of every single subject. This might be very time-consuming if you have several subjects in a project. For upload via script see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
+Before you begin - per subject - zip all files you want to upload in one folder (if you want to upload several files) in one tar.gz file (tar -czf FILENAME.tar.gz FOLDERNAME).
+
+[Figure 5:](#Manual/Login/Resources)
+1. Go to the subject's session that you want to upload the files to
+2. Click on *manage files*
+3. Then choose *resources*
+4. Choose the resources folder you want to upload to, e.g. qBOLD
+5. Choose the zipped folder you want to upload 
+6. Click *Upload*
+
+Click *OK* if XNAT asks you to unzip the files
+
+
+<a name="Manual/Login/Resources"></a>
+
+| ![Login](../../../pics/Resources.png) | 
+|:--:| 
+| **Fig.5** *Resource upload.* |
+
+
+**Adding AIF function to the existing participant's file**:
+
+- In each subjects data directory, create a folder under the resources tab 
+
+
+<a name="Manual/Login/AIF"></a>
+
+| ![Login](../../../pics/AIF.png) | 
+|:--:| 
+| **Fig.5** *AIF function.* |
+
+
+
+- Upload anonymized AIF file 
+
+<a name="Manual/Login/AIF_2"></a>
+
+| ![Login](../../../pics/AIF_2.png) | 
+|:--:| 
+| **Fig.5** *Anonymized AIF file.* |
+
+
+
+
+#### B. Upload via Python notebook (scp)
+
+If you have several files per subject you want to upload, this can be done via jupyter notebook. Follow these instructions to create a python notebook on the server: ** Section to be created**
+
+```python
+def cp_resource(xnat_resource, local_dir, direction, remote_path):
+	'''
+	Upload image to a specific folder on xnat or download the image from xnat.
+	    
+	xnat_resource : <Resource Object>
+		scan object, with specific resource (eg. NIFTI) on xnat
+	        
+	local_dir : str
+	    directory where to put the file
+	        
+	direction : str
+	    'local2remote' -> get data for this scan
+	    'remote2local' -> upload data to this scan
+	        
+	remote_path : str
+	    name of the scan
+	        
+	Returns : <something> or None
+	'''
+	if (remote_path.find('*') >= 0):
+	    remote_path = xnat_resource.files(remote_path)[0]._urn
+	local_file = os.path.join(local_dir,remote_path)
+	        
+	if direction == 'remote2local':
+	    local_path = os.path.dirname(local_file)
+	    if not os.path.isdir(local_path): 
+	        !mkdir -p {local_path}
+	    xnat_resource.file(remote_path).get(local_file)
+	    return local_file
+	            
+	elif direction == 'local2remote':
+        xnat_resource.file(remote_path).insert(local_file,overwrite=True)
+```
+
+Use as e.g. as follows: 
+
+```python	
+#Define resource directory on xnat: 
+working_res = sess.resource('qBOLD') 
+
+#copy files from RAID1/tmp/ to xnat wks in resource folder
+cp_resource(working_res, local_dir, 'local2remote', 'rest/rabsgradz.nii')
+cp_resource(working_res, local_dir, 'local2remote', 'rest/rTE1.nii')
+```
 
 
 
