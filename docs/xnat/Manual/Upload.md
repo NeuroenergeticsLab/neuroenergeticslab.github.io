@@ -6,7 +6,7 @@ grand_parent: XNAT / Jupyter
 nav_order: 2
 ---
 
-<details open markdown="block">
+<details markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -16,7 +16,7 @@ nav_order: 2
 </details>
 
 
-<details open markdown="block">
+<details markdown="block">
   <summary>
     Table of contents
   </summary>
