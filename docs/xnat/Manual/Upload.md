@@ -195,7 +195,7 @@ Depending on where the data are, that you want to upload, different ways of uplo
 You can manually upload images to the resource folder of every single subject. This might be very time-consuming if you have several subjects in a project. For upload via script see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
 Before you begin - per subject - zip all files you want to upload in one folder (if you want to upload several files) in one tar.gz file (tar -czf FILENAME.tar.gz FOLDERNAME).
 
-[Figure 5:](#Manual/Login/Resources)
+[Legend figure 5:](#Manual/Login/Resources)
 1. Go to the subject's session that you want to upload the files to
 2. Click on *manage files*
 3. Then choose *resources*
@@ -222,7 +222,7 @@ Click *OK* if XNAT asks you to unzip the files
 
 | ![Login](../../../pics/AIF.png) | 
 |:--:| 
-| **Fig.5** *AIF function.* |
+| **Fig.6** *AIF function.* |
 
 
 
@@ -232,7 +232,7 @@ Click *OK* if XNAT asks you to unzip the files
 
 | ![Login](../../../pics/AIF_2.png) | 
 |:--:| 
-| **Fig.5** *Anonymized AIF file.* |
+| **Fig.7** *Anonymized AIF file.* |
 
 
 
