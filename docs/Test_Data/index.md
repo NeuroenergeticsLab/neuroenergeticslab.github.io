@@ -13,7 +13,10 @@ Available below is a test data set consisting of [DICOMs](../Glossary/glossary.m
 [Download](https://tumde.sharepoint.com/:u:/s/ValNeuroLab/ETIsx8l5EfNKosVV9vO-zjQB7LtfC9Hb6obgoVanH4mRYQ?e=hOCMPr){: .btn} 
 
 
-Once redirected to the download website tick the box as shown in figure 1, then proceed by clicking *Download*. Further help is provided via our [video guide](../Video_Guide/Upload_Data.md).
+Once redirected to the download website tick the box as shown in [figure 1](#Test_Data/Test_Download), then proceed by clicking *Download*. Further help is provided via our [video guide](../Video_Guide/Upload_Data.md).
+
+
+<a name="Test_Data/Test_Download"></a>
 
 | ![Download test data](../../../pics/Download_test_data.png) | 
 |:--:| 

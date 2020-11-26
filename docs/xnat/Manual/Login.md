@@ -6,15 +6,14 @@ grand_parent: XNAT / Jupyter
 nav_order: 1
 ---
 
-
-### ToC:
-
-| Section | Link | 
-| :---: | --- |
-| 1.1.| [Login to XNAT](#11-login-to-xnat)|
-| 1.2.| [Create Project](#12-create-project)|
-
-
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 <br/>	
 

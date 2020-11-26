@@ -15,24 +15,8 @@ nav_order: 2
 {:toc}
 </details>
 
-
-<details markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-{:toc}
-
-| Section | Link | 
-| :---: | --- |
-| 2.1.| [Manual upload](#21-manual-upload) |
-| 2.2.| [Automated upload via script (DICOM images)](#22-automated-upload-via-script-dicom-images) |
-| 2.3.| [Automated upload: PAR-REC Python script](#23-automated-upload-par-rec-python-script) |
-| 2.4.| [Troubleshooting](#24-troubleshooting) |
-
-</details>
-
 <br/>	
+
 
 # 2.0. Upload of Data
 
@@ -276,7 +260,7 @@ def cp_resource(xnat_resource, local_dir, direction, remote_path):
         xnat_resource.file(remote_path).insert(local_file,overwrite=True)
 ```
 
-Use as e.g. as follows: 
+Use as follows: 
 
 ```python	
 #Define resource directory on xnat: 
