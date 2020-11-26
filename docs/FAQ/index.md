@@ -14,20 +14,40 @@ Navigate to your subtopic of choice and we will provide you with help!
 
 <br/>	
 
-<details>
+
+
+
+<details markdown="block">
 <summary>How do I install XNAT?</summary>
-<br>
 
-Here you can find a more extensive <a href="../xnat/Setup/installation.html">explanation.</a>
+Here you can find a more extensive [explanation](../xnat/Setup/installation.md)
 
-<br/><br/></details>
+</details>
 
 
-<details>
+
+
+<details markdown="block">
 <summary>Why does my website repository not work?</summary>
 <br>
 Downloading the website repository directly form Github could have caused this problem. Delete the repository from your files and download it again directly via your terminal by using the following command. Notice that you have to adjust the path to suit your repository.
 
-<pre><code>git clone https://github.com/...</code></pre>	
+`git clone https://github.com/...`
 
-<br/><br/></details>
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
