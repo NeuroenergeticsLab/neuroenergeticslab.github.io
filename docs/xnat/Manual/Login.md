@@ -17,6 +17,8 @@ nav_order: 1
 
 <br/>	
 
+***
+
 # 1.0. Login and project creation
 
 

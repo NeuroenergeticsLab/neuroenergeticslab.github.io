@@ -17,6 +17,7 @@ nav_order: 5
 
 <br/>
 
+***
 
 # 5.0. Automated generation of images
 

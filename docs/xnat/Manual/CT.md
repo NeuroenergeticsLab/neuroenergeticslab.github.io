@@ -17,5 +17,6 @@ nav_order: 7
 
 <br/>
 
+***
 
 # 7.0 Create pseudo CT images

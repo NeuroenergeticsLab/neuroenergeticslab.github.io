@@ -22,22 +22,7 @@ This practical session breaks XNAT Administration and Project Setup into the fol
 
 ***
 
-# Test DICOM server
-1. Send a test dataset to the location configured in the step (2) of the Administration section. For the automatic mapping of the dataset to an existing project, add the following information to the comments of the study:
-`Project:Project_ID` (or Project Alias will work as well) `Subject:Subject_ID` `Session:Session_ID`
-2. Check [this page](https://wiki.xnat.org/documentation/how-to-use-xnat/image-session-upload-methods-in-xnat/how-xnat-scans-dicom-to-map-to-project-subject-session) for more information
-3. To check the status of the image transmission:
-    3. Go to the web interface
-    3. Click on **Upload** (Top bar) &#8594; **Go to prearchive**
-4. When the status of the study is Ready (refresh the website to check for updates of the status):
-    4. Select the study by clicking in the checkbox
-    4. Click on **Change projects**
-    4. Select the project to which this project belongs to and click on **Ok**
-    4. Reload the website, check the study like in (1) and click on **Review and Archive**
-    > ![step 4](/pics/1.png)
-5. Edit the information and click on **Submit**
-    > ![step 5](/pics/2.png)
-6. To check the uploaded study click on **Browse** &#8594; **My project** &#8594; **Test project** and select the subject id and session
-    > ![step 6.1](/pics/3.png)
-    > ![step 6.2](/pics/4.png)
+### Getting started
+
+You can start working through our [manual](../Manual/index.md).
 

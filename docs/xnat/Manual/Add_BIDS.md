@@ -17,6 +17,7 @@ nav_order: 4
 
 <br/>
 
+***
 
 # 4.0. Add BIDS description to series
 

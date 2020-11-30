@@ -17,6 +17,7 @@ nav_order: 9
 
 <br/>
 
+***
 
 # 9.0. XNAT manual pdf download
 
