@@ -192,7 +192,7 @@ Click *OK* if XNAT asks you to unzip the files
 
 <a name="Manual/Login/Resources"></a>
 
-| ![Login](../../../pics/Resources.png) | 
+| ![Resources](../../../pics/Resources.png) | 
 |:--:| 
 | **Fig.5** *Resource upload.* |
 
@@ -204,7 +204,7 @@ Click *OK* if XNAT asks you to unzip the files
 
 <a name="Manual/Login/AIF"></a>
 
-| ![Login](../../../pics/AIF.png) | 
+| ![AIF](../../../pics/AIF.png) | 
 |:--:| 
 | **Fig.6** *AIF function.* |
 
@@ -214,7 +214,7 @@ Click *OK* if XNAT asks you to unzip the files
 
 <a name="Manual/Login/AIF_2"></a>
 
-| ![Login](../../../pics/AIF_2.png) | 
+| ![AIF_2](../../../pics/AIF_2.png) | 
 |:--:| 
 | **Fig.7** *Anonymized AIF file.* |
 

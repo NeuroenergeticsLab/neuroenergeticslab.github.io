@@ -44,19 +44,19 @@ The Download Sessions UI [(Fig.1)](#Manual/Download/Download_Interface) consists
 
 <a name="Manual/Download/Download_Interface"></a>
 
-| ![Login](../../../pics/Download_Interface.png) | 
+| ![Download_Interfacegin](../../../pics/Download_Interface.png) | 
 |:--:| 
 | **Fig.1** *Download interface.* |
 
 
 **Downloading Image Files**
 
-After clicking *Submit*, a modal like the one above will come up and inform you of the file to be downloaded. If you wish to begin the download, simply click *Download* [(Fig.2)](#Manual/Download/Download_modal). You may then get a pop-up asking whether you want your browser to save or open the file you're downloading. After you make your selection and the file downloads, you can view the downloaded file. The file name will match the listed download ID, so 'test-20201127_124746.' is the name of the file that was saved in [(Fig.3)](#Manual/Download/Download_modal). XNAT also provides you with the total size of the files to be downloaded (before compression). If you are downloading the catalog XML, the extension will be ‘.xml'. 
+After clicking *Submit*, a modal like the one above will come up and inform you of the file to be downloaded. If you wish to begin the download, simply click *Download* [(Fig.2)](#Manual/Download/Download_modal). You may then get a pop-up asking whether you want your browser to save or open the file you're downloading. After you make your selection and the file downloads, you can view the downloaded file. The file name will match the listed download ID, so *'test-20201127_124746'* is the name of the file that was saved in [(Fig.3)](#Manual/Download/Download_modal). XNAT also provides you with the total size of the files to be downloaded (before compression). If you are downloading the catalog XML, the extension will be ‘.xml'. 
 
 
 <a name="Manual/Download/Download_modal"></a>
 
-| ![Login](../../../pics/Download_modal.png) | 
+| ![Download_modal](../../../pics/Download_modal.png) | 
 |:--:| 
 | **Fig.2** *Download modal.* |
 
