@@ -7,7 +7,7 @@ has_children: true
 
 # Video Guide
 
-Here you can find helpful video guides that walk you through the major steps of using XNAT.
+Here you can find helpful video guides that walk you through the major steps of using XNAT. For video to which access has been privately granted we suggest using the Google chrome browser.
 <br/><br/>	
 
 1. Click below to view the Upload of single subject data:

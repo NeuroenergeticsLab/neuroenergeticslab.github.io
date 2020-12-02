@@ -27,7 +27,7 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 ### 4.1. Provide the BIDS names to series 
 
 
-1. Open a json file with *"series_description": "bidsname"* fields
+1. Open a json file with *'series_description': 'bidsname'* fields
 	1. Example: `\ [Pathname ...] \Documents\DataPipeline\bidsmap_dcmet_coma.json`
 2. Open one session on xnat
 	2. Enter the correct series description in json file [(Fig.1)](#Manual/Add_BIDS/BIDS_description)
