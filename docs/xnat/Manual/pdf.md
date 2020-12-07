@@ -3,23 +3,11 @@ layout: default
 title: Download Manual
 parent: Manual
 grand_parent: XNAT / Jupyter
-nav_order: 9
+nav_order: 6
 ---
 
-<details markdown="block">
-  <summary>
-    Table of contents
-  </summary>
-  {: .text-delta }
-1. TOC
-{:toc}
-</details>
 
-<br/>
-
-***
-
-# 9.0. XNAT manual pdf download
+# 6.0. XNAT manual pdf download
 
 Available below is a pdf-version of the manual. 
 

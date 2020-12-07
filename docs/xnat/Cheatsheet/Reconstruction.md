@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Create Pseudo CT Images
-parent: Manual
+title: Reconstruction
+parent: Cheatsheet
 grand_parent: XNAT / Jupyter
-nav_order: 7
+nav_order: 2
 ---
 
 <details markdown="block">
@@ -19,4 +19,5 @@ nav_order: 7
 
 ***
 
-# 7.0 Create pseudo CT images
+# 2.0. Reconstruction
+
