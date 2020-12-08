@@ -113,11 +113,11 @@ The following code bits need to be run via the terminal:
 2. Install pyxnat: `pip install pyxnat`
 3. Install jupyter: `conda install jupyter`
 4. Copy the script .xnatPass (please note: without any extension and with the dot!) to your home folder and apply chmod +x (to get execute permissions)
-	4. Linux terminal: `echo '{"server": "<xnat_ip>", "user": "<user>", "password": "<password>"}' > xnat_config.cfg`
-	4. Initiate connection: `interface = pyxnat.Interface(config='.xnatPass.cfg')`
+	- Linux terminal: `echo '{"server": "<xnat_ip>", "user": "<user>", "password": "<password>"}' > xnat_config.cfg`
+	- Initiate connection: `interface = pyxnat.Interface(config='.xnatPass.cfg')`
 5. Change USER and PASSWORD in xnatPASS to your XNAT credentials
 6. Copy and open the following script via jupyter notebooks or Visual Studio Code with Python extension installed:
-	6. [Download](https://tumde.sharepoint.com/:u:/s/ValNeuroLab/EfQgPwNHQOFKqCuQkjqwtwgBxjBLVJmC_4hX8zH7dX1q4w?e=6d2Dac){: .btn} 
+	- [Download](https://tumde.sharepoint.com/:u:/s/ValNeuroLab/EfQgPwNHQOFKqCuQkjqwtwgBxjBLVJmC_4hX8zH7dX1q4w?e=6d2Dac){: .btn} 
 7. Be sure that subject-id and session match your project description in XNAT
 8. Within the script, you can define which subjects, series etc. you want to upload
 9. All series which are correctly named (defined in your naming script) will be automatically converted to BIDS data format
@@ -169,10 +169,10 @@ If you are sure that you sent the data to XNAT but you cannot find them either i
 Depending on where the data are, that you want to upload, different ways of uploading apply: 
 
 1. The data are on the local clinic server system and you are also in the local environment (i.e. in the office)
-	1. If this is the case, see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
+	- If this is the case, see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
 2. The data are on your local machine: It will take a lot of time to upload data to the wks via the GUI! There are two options: 
-	2. [Manual Upload](#a-manual-upload): Login via VPN to the local server system and upload from there (if you have big data, this is the only option) (See section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script))
-	2. [Upload via Python notebook (scp)](#b-upload-via-python-notebook-scp): If you only have small files: Upload to resources (or scans) following the two options displayed below 
+	- [Manual Upload](#a-manual-upload): Login via VPN to the local server system and upload from there (if you have big data, this is the only option) (See section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script))
+	- [Upload via Python notebook (scp)](#b-upload-via-python-notebook-scp): If you only have small files: Upload to resources (or scans) following the two options displayed below 
 
 
 #### A. Manual Upload

@@ -28,9 +28,9 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 
 
 1. Open a json file with *'series_description': 'bidsname'* fields
-	1. Example: `\ [Pathname ...] \Documents\DataPipeline\bidsmap_dcmet_coma.json`
+	- Example: `\ [Pathname ...] \Documents\DataPipeline\bidsmap_dcmet_coma.json`
 2. Open one session on xnat
-	2. Enter the correct series description in json file [(Fig.1)](#Manual/Add_BIDS/BIDS_description)
+	- Enter the correct series description in json file [(Fig.1)](#Manual/Add_BIDS/BIDS_description)
 
 
 <a name="Manual/Add_BIDS/BIDS_description"></a>
@@ -45,10 +45,10 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 ### 4.2. Upload the BIDS names to XNAT
 
 1. Use curl command to upload data in the json file with bids names to XNAT
-	1. On Windows: Curl is available in Windows Powershell (at least in Win10) and is an alias for *'Invoke-WebRequest'*
+	- On Windows: Curl is available in Windows Powershell (at least in Win10) and is an alias for *'Invoke-WebRequest'*
 2. Next provide username, path to json file and project name in the link. Enter XNAT password after executing
-	2. It is important to put the *@ symbol* in the json file path inside the quotes
-	2. `curl -u <xnat_username> -p -d "@<path_to_json_file>" -k -v -X PUT`
+	- It is important to put the *@ symbol* in the json file path inside the quotes
+	- `curl -u <xnat_username> -p -d "@<path_to_json_file>" -k -v -X PUT`
 3. After command is complete, go to the provided link to check if the file has been uploaded. It should look like [figure 2](#Manual/Add_BIDS/BIDS_2)
 
 
@@ -75,8 +75,8 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 
 3. Go to a *Session > Actions > Run containers > dcm2bids PAR-REC compatible > Run container*
 4. After the command is done, check that the files have appeared:
-	4. *Actions > File Manager*
-	4. Series that were entered under *series_description* in the json file should have [BIDS](../../Glossary/glossary.md/#BIDS) and [NIFTI](../../Glossary/glossary.md/#NIFTI) folders under their names [(Fig.4)](#Manual/Add_BIDS/BIDS_3)
+	- *Actions > File Manager*
+	 Series that were entered under *series_description* in the json file should have [BIDS](../../Glossary/glossary.md/#BIDS) and [NIFTI](../../Glossary/glossary.md/#NIFTI) folders under their names [(Fig.4)](#Manual/Add_BIDS/BIDS_3)
 
 
 
