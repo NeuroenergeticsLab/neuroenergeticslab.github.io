@@ -3,11 +3,11 @@ layout: default
 title: Download Manual
 parent: Manual
 grand_parent: XNAT / Jupyter
-nav_order: 6
+nav_order: 5
 ---
 
 
-# 6.0. XNAT manual pdf download
+# 5.0. XNAT manual pdf download
 
 Available below is a pdf-version of the manual. 
 

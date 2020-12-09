@@ -3,11 +3,11 @@ layout: default
 title: Automated generation of images
 parent: Manual
 grand_parent: XNAT / Jupyter
-nav_order: 5
+nav_order: 4
 ---
 
 
-# 5.0. Automated generation of images
+# 4.0. Automated generation of images
 
 Once the study/session has been added and the bidsmap json has been provided, some automatic tasks are run, e.g. creation of [NIFTI](../../Glossary/glossary.md/#NIFTI) files (dcm2nii is not run automatically and has to be run using *'run containers'*). You can check their status by checking the panel *'History'* [(Fig.1)](#Manual/NIFTIs/Panel).
 

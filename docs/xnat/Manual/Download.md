@@ -3,7 +3,7 @@ layout: default
 title: Export of Data
 parent: Manual
 grand_parent: XNAT / Jupyter
-nav_order: 3
+nav_order: 2
 ---
 
 <details markdown="block">
@@ -19,9 +19,9 @@ nav_order: 3
 
 ***
 
-# 3.0. Export
+# 2.0. Export
 
-### 3.1. Export a zip file of the images from XNAT
+### 2.1. Export a zip file of the images from XNAT
 
 
 Users can download image session data from XNAT in a variety of contexts:

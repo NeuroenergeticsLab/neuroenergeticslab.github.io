@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Upload of Data
-parent: Manual
+title: Upload V1
+parent: Upload of data
 grand_parent: XNAT / Jupyter
-nav_order: 2
+nav_order: 1
 ---
 
 <details markdown="block">
@@ -19,9 +19,9 @@ nav_order: 2
 
 ***
 
-# 2.0. Upload of Data
+# 1.0. Upload of Data
 
-### 2.1. Manual upload
+### 1.1. Manual upload
 
 Now you can upload [(Fig.1)](#Manual/Login/Compressed_Uploader) a DICOM.zip to the *prearchive* [(Fig.2)](#Manual/Login/Prearchive) as explained in the following steps. If you do not have a data set at hand you can download our [test data](../../Test_Data/index.md) set.
 
@@ -62,7 +62,7 @@ Click *Begin Upload* to upload the imaging data to the prearchive. This takes so
 | **Fig.3** *Subject information form.* |
 
 
-When being in the archive you can click on *Manage Files* to view the DICOMS of the scan [(Fig.7)](#Manual/Login/Archive). By clicking *View Images*, XNAT provides you with a preliminary graphical representation of your imaging data (DICOMS).
+When being in the archive you can click on *Manage Files* to view the DICOMS of the scan [(Fig.4)](#Manual/Login/Archive). By clicking *View Images*, XNAT provides you with a preliminary graphical representation of your imaging data (DICOMS).
 
 <a name="Manual/Login/Archive"></a>
 
@@ -73,9 +73,9 @@ When being in the archive you can click on *Manage Files* to view the DICOMS of 
 
 <br/>	
 
-### 2.2. Automated upload via script (DICOM images)	
+### 1.2. Automated upload via script (DICOM images)	
 
-If you want to upload several subjects at once, e.g. if you want to put an already conducted study / project on XNAT, you may consider using an upload script to prevent uploading each subject manually. As a first step, make sure that you created a new project on XNAT (this can only be done by the administrator), see [figure 3](#Manual/Login/Create). Make sure to go to *Manage > Enable anonymization script*.
+If you want to upload several subjects at once, e.g. if you want to put an already conducted study / project on XNAT, you may consider using an upload script to prevent uploading each subject manually. As a first step, make sure that you created a new project on XNAT (this can only be done by the administrator), see [figure 3](../Manual/Login/#Manual/Login/Create) in the manual section 1. Make sure to go to *Manage > Enable anonymization script*.
 
 Furthermore, make sure to have downloaded [DCMTK](https://support.dcmtk.org/docs/index.html "DICOM ToolKit package"). 
 
@@ -101,7 +101,7 @@ e.g: `bash ./sendDCM2xnat.sh fp666 petmr p_fpet_vis 10.32.48.142 8104 /Users/gab
 
 <br/>
 
-### 2.3. Automated upload: PAR-REC Python script
+### 1.3. Automated upload: PAR-REC Python script
 
 **This only works in a Linux/Mac environment!**
 Additionally, via the script, series can be re-named and data structure / naming can be manipulated.
@@ -153,7 +153,7 @@ It then uploads all folders and subfolders that are inside qBOLD.tar.gz to the s
 <br/>
 
 
-### 2.4. Troubleshooting
+### 1.4. Troubleshooting
 
 If you are sure that you sent the data to XNAT but you cannot find them either in the prearchive [(Fig.2)](#Manual/Login/Prearchive) nor in the archive [(Fig.4)](#Manual/Login/Archive) of the XNAT Intranet, try the following: 
 
@@ -163,21 +163,22 @@ If you are sure that you sent the data to XNAT but you cannot find them either i
 <br/>
 
 
-### 2.5. Add data to existing project
+### 1.5. Add data to existing project
 
 
 Depending on where the data are, that you want to upload, different ways of uploading apply: 
 
 1. The data are on the local clinic server system and you are also in the local environment (i.e. in the office)
-	- If this is the case, see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
+	- If this is the case, see section [1.2.](#12-automated-upload-via-script-dicom-images) & [1.3.](#13-automated-upload-par-rec-python-script)
 2. The data are on your local machine: It will take a lot of time to upload data to the wks via the GUI! There are two options: 
-	- [Manual Upload](#a-manual-upload): Login via VPN to the local server system and upload from there (if you have big data, this is the only option) (See section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script))
+	- [Manual Upload](#a-manual-upload): Login via VPN to the local server system and upload from there (if you have big data, this is the only option) (See section [1.2.](#12-automated-upload-via-script-dicom-images) & [1.3.](#13-automated-upload-par-rec-python-script))
 	- [Upload via Python notebook (scp)](#b-upload-via-python-notebook-scp): If you only have small files: Upload to resources (or scans) following the two options displayed below 
 
+<br/>	
 
 #### A. Manual Upload
 
-You can manually upload images to the resource folder of every single subject. This might be very time-consuming if you have several subjects in a project. For upload via script see section [2.2.](#22-automated-upload-via-script-dicom-images) & [2.3.](#23-automated-upload-par-rec-python-script)
+You can manually upload images to the resource folder of every single subject. This might be very time-consuming if you have several subjects in a project. For upload via script see section [1.2.](#12-automated-upload-via-script-dicom-images) & [1.3.](#13-automated-upload-par-rec-python-script)
 Before you begin - per subject - zip all files you want to upload in one folder (if you want to upload several files) in one tar.gz file (tar -czf FILENAME.tar.gz FOLDERNAME).
 
 [Legend figure 5:](#Manual/Login/Resources)
@@ -220,7 +221,7 @@ Click *OK* if XNAT asks you to unzip the files
 | **Fig.7** *Anonymized AIF file.* |
 
 
-
+<br/>	
 
 #### B. Upload via Python notebook (scp)
 

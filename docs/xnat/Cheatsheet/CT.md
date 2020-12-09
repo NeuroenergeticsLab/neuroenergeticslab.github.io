@@ -44,13 +44,6 @@ nav_order: 1
 <br/>
 
 
-3. Upload the pCT data to server - to use with Jupyter Notebook
-	- Download the niftis from emails
-	- Compress all to a zip archive
-	- Send to a folder on the server - execute from terminal (not connected to server):
 
-
-
-[...]
 
 

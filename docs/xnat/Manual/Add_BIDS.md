@@ -3,7 +3,7 @@ layout: default
 title: Add BIDS Description to Series
 parent: Manual
 grand_parent: XNAT / Jupyter
-nav_order: 4
+nav_order: 3
 ---
 
 <details markdown="block">
@@ -19,12 +19,12 @@ nav_order: 4
 
 ***
 
-# 4.0. Add BIDS description to series
+# 3.0. Add BIDS description to series
 
 The purpose of this step is to match series descriptions on XNAT with correct BIDS names.
 
 
-### 4.1. Provide the BIDS names to series 
+### 3.1. Provide the BIDS names to series 
 
 
 1. Open a json file with *'series_description': 'bidsname'* fields
@@ -42,7 +42,7 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 
 <br/>
 
-### 4.2. Upload the BIDS names to XNAT
+### 3.2. Upload the BIDS names to XNAT
 
 1. Use curl command to upload data in the json file with bids names to XNAT
 	- On Windows: Curl is available in Windows Powershell (at least in Win10) and is an alias for *'Invoke-WebRequest'*
@@ -60,7 +60,7 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 
 <br/>
 
-### 4.3. Run Docker container
+### 3.3. Run Docker container
 	
 1. Go to *Project > Actions > Project settings*
 2. Enable *'dcm2bids PAR-REC compatible'* command [(Fig.3)](#Manual/Add_BIDS/Enable_command)
