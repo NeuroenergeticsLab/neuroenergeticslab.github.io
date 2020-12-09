@@ -6,9 +6,25 @@ grand_parent: XNAT / Jupyter
 nav_order: 4
 ---
 
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
+
+<br/>   
+
+***
+
+
 ## Connect to Jupyter Notebook server on a remote server
 
 1. Open terminal (PowerShell on Windows 10)
+
+    <a name="Setup/pyxnat/Step2"></a>
 
 2. SSH to the remote server with port forwarding option
 
@@ -38,21 +54,26 @@ nav_order: 4
 
     `--no-browser` to not open browser window (need to do this locally, not on the server)
 
-    `--port` enter the same `remoteport` number from step **2**
+    `--port` enter the same `remoteport` number from [step 2](#Setup/pyxnat/Step2)
 
     `&` tells the terminal to run the server in the background (so that the terminal is still available to enter commands etc.)
 
-5. Open the notebook in a browser window
+5. Open the notebook in a browser window [(Fig.1)](#Setup/pyxnat/Open_Notebook)
 
-    type `localhost:<localport>` in the url window (localport from step **2**)
+    type `localhost:<localport>` in the url window (localport from [step 2](#Setup/pyxnat/Step2))
     or copy and paste one of these lines
 
-    ![open-notebook](/pics/open-notebook.png)
+
+    <a name="Setup/pyxnat/Open_Notebook"></a>
+
+    | ![Open_Notebook](../../../pics/open-notebook.png) | 
+    |:--:| 
+    | **Fig.1** *Open Notebook.* |
 
 
 6. Reconnect to the notebook
 
-    Connect to the server (step **2**) and check the running jupyter servers:
+    Connect to the server [(step 2)](#Setup/pyxnat/Step2) and check the running jupyter servers:
 
     ```bash
     jupyter notebook list
@@ -109,7 +130,7 @@ The data is organized hierarchically:
 
 ### Projects
 
-- List all available projects on xnat
+- List all available projects on XNAT
 ```python
 for project in interface.select.projects():
     print(project.label())
@@ -173,7 +194,7 @@ print(project.exists())
 
 ### Resources
 
-- Resource can be a different file format (e.g. DICOM or NIFTI)
+- Resource can be a different file format (e.g. [DICOM](../../Glossary/glossary.md/#DICOM "Digital imaging and communications in medicine") or [NIFTI](../../Glossary/glossary.md/#NIFTI "Neuroimaging informatics technology initiative"))
 
     ```python
     for resource in scan.resources():
@@ -193,7 +214,7 @@ print(project.exists())
         print(file.label())
     ```
 
-- Access the full path of a file stored on xnat
+- Access the full path of a file stored on XNAT
 
     ```python
     file = resource.file('<file label>')
@@ -219,11 +240,11 @@ print(project.exists())
 - Similarly, can call `.insert()` funciton on `Resource` or `File`. E.g. to upload a file to a resource:
 
     ```python
-    file = resource.file('<remote filename>') # this is the name the file will appear on xnat
+    file = resource.file('<remote filename>') # this is the name the file will appear on XNAT
     file.insert('<local file path>') # this is the path to the file stored locally
     ```
 
-- Check that the file exists on xnat:
+- Check that the file exists on XNAT:
 
     ```python
     print(file.exists(), file._uri)
