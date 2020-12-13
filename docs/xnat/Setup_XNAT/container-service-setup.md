@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Container service setup
-parent: Setup
-grand_parent: XNAT / Jupyter
+parent: Setup XNAT
+grand_parent: Data Pipeline
 nav_order: 3
 ---
 

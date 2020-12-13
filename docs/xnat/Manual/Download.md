@@ -2,7 +2,7 @@
 layout: default
 title: Export of Data
 parent: Manual
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 2
 ---
 

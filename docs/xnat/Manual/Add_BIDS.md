@@ -2,7 +2,7 @@
 layout: default
 title: Add BIDS Description to Series
 parent: Manual
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 3
 ---
 

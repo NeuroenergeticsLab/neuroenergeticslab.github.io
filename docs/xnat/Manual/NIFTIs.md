@@ -2,7 +2,7 @@
 layout: default
 title: Automated generation of images
 parent: Manual
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 4
 ---
 

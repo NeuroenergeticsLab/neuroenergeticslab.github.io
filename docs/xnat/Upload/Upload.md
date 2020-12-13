@@ -2,7 +2,7 @@
 layout: default
 title: Upload V1
 parent: Upload of data
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 1
 ---
 

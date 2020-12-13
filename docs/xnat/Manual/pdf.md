@@ -2,7 +2,7 @@
 layout: default
 title: Download Manual
 parent: Manual
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 5
 ---
 

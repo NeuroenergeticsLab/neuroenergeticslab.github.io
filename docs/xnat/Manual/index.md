@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Manual
-parent: XNAT / Jupyter
+parent: Data Pipeline
 has_children: true
-nav_order: 2
+nav_order: 3
 ---
 
 # Manual

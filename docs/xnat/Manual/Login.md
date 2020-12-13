@@ -2,7 +2,7 @@
 layout: default
 title: Login and Project Creation
 parent: Manual
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 1
 ---
 

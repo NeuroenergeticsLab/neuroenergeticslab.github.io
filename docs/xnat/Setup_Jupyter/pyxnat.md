@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Jupyter Notebook and Pyxnat
-parent: Setup
-grand_parent: XNAT / Jupyter
-nav_order: 4
+parent: Setup Jupyter
+grand_parent: Data Pipeline
+nav_order: 1
 ---
 
 <details markdown="block">

@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Cheatsheet
-parent: XNAT / Jupyter
+parent: Data Pipeline
 has_children: true
-nav_order: 4
+nav_order: 5
 ---
 
 # Cheatsheet

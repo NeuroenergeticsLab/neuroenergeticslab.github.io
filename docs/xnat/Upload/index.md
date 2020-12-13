@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Upload of data
-parent: XNAT / Jupyter
+parent: Data Pipeline
 has_children: true
-nav_order: 3
+nav_order: 4
 ---
 
 # Upload of data

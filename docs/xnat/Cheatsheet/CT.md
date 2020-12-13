@@ -2,7 +2,7 @@
 layout: default
 title: Create Pseudo CT Images
 parent: Cheatsheet
-grand_parent: XNAT / Jupyter
+grand_parent: Data Pipeline
 nav_order: 1
 ---
 

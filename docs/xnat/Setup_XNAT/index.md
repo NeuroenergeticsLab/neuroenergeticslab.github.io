@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Setup
-parent: XNAT / Jupyter
+title: Setup XNAT
+parent: Data Pipeline
 has_children: true
 nav_order: 1
 ---

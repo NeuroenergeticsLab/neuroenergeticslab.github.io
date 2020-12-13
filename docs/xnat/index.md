@@ -1,11 +1,11 @@
 ---
 layout: default
-title: XNAT / Jupyter
+title: Data Pipeline
 has_children: true
 nav_order: 1
 ---
 
-# Welcome to XNAT and Jupyter
+# Welcome to our data pipeline
 
 
 The following manual will guide you through [XNAT](../Glossary/glossary.md/#XNAT "Extensible Neuroimaging Archive Toolkit") ([website](https://www.xnat.org)) & [Jupyter](../Glossary/glossary.md/#Jupyter) ([website](https://jupyter.org/)), their [setup](Setup/index.md), [use](Manual/index.md), and many other handy features.
