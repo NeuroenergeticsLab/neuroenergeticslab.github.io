@@ -16,6 +16,7 @@ Here you can find helpful video guides that walk you through the major steps of 
 
 2. Click below to view Video XY:
 
+    [<img src="../../pics/XNAT_image_2.png" width="200" height="200" />](Data_Levels.md)
 
 
 
