@@ -12,7 +12,7 @@ nav_order: 3
 
 **Docker** <a name="Docker"></a> - a set of platform as a service (PaaS) products that use OS-level virtualization to deliver software in packages called containers. Containers are isolated from one another and bundle their own software, libraries and configuration files; they can communicate with each other through well-defined channels.
 
-**jupyter** <a name="Jupyter"></a> - 
+**jupyter** <a name="Jupyter"></a> - The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. 
 
 **Modular extensibility** <a name="Modular extensibility"></a> – 
 

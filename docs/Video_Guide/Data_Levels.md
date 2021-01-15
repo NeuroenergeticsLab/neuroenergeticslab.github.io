@@ -18,3 +18,9 @@ nav_order: 2
 
 
 **Description:**
+
+This video walks you through the data levels with the following hierarchy:
+
+1. Group or project level
+2. Subject level
+3. Scan level
