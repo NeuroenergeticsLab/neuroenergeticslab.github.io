@@ -39,7 +39,7 @@ By clicking *Prearchive* the data will temporarily be stored in a medium where y
 
 **Attention**: Data has to be stored in a zip. file or .tar.gz archive file. **Note**: If you upload a large file from a network drive, you may notice some lag in performance. 
 
-Click *Begin Upload* to upload the imaging data to the prearchive. This takes some time, you can oversee the upload in the progress panel. Even if there's a time-out error, the upload still continues. Assuming your archive is properly formatted, the files will be extracted and reviewed and sent to the destination that you selected. Now you can proceed to the prearchive by navigating to *Upload > Prearchive*. The data of the newly added subject can now be reviewed and archived. 
+Click *Begin Upload* to upload the imaging data to the prearchive. This takes some time, you can oversee the upload in the progress panel. Even if there's a time-out error, the upload still continues. Assuming your [archive is properly formatted](https://wiki.xnat.org/documentation/how-to-use-xnat/image-session-upload-methods-in-xnat/using-the-compressed-image-uploader), the files will be extracted and reviewed and sent to the destination that you selected. Now you can proceed to the prearchive by navigating to *Upload > Prearchive*. The data of the newly added subject can now be reviewed and archived.
 
 1.	Select the study by clicking in the checkbox
 2.	Click on *change projects*
