@@ -71,4 +71,4 @@ _Note: Ideally plan two to four weeks for the whole process if possible_
 
 
 
-
+Just checking if it works [(Fig.1)(https://github.com/Armos05/Armos05.github.io/blob/master/docs/Getting%20Started/brain_image.jpg)]
