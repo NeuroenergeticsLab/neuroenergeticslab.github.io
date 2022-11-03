@@ -2,7 +2,6 @@
 layout: default
 title: Meetings
 parent: Getting Started
-has_children: true
 nav_order: 1
 ---
 
