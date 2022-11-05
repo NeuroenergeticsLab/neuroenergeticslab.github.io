@@ -28,9 +28,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #github_username:
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
+# remote_theme: pmarsceill/just-the-docs #Uncomment
+#plugins:
+#  - jekyll-feed   Uncomment
 plugins:
-  - jekyll-feed
+  - jekyll-remote-theme
+
+remote_theme: ngzhio/jekyll-theme-hamilton
 
 # Exclude from processing.
 # The following items will not be processed, by default.
