@@ -21,7 +21,6 @@ Office at Neuro-Kopf-Zentrum, Ismaninger Str. 22
 
 Kirchenhof Scanner: 2940 
 
----
 
 ## ValentinLab 
 
@@ -31,6 +30,9 @@ André / Antonia - 7969
 
 
 
-Address: TUMNIC  Building (buidling 718), Einsteinstr 1 
+### Address: 
+TUMNIC  Building (buidling 718), Einsteinstr 1 
+
 If you take an exit from Max Weber Platz metro station, ecit from the right side. The building will be right infront of you.
+
 Press the button that says "Klinikum". Use the lift to go to level 5. Press the buzzer there.
