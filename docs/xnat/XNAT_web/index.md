@@ -8,4 +8,5 @@ nav_order: 6
 
 # XNAT web interface
 
-Here you can find help with the setup of XNAT.
+Get your web XNAT credentials from Martin (see contacts).
+
