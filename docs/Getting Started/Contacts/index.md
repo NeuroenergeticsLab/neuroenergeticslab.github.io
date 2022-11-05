@@ -24,7 +24,7 @@ Kirchenhof Scanner: 2940
 
 ## ValentinLab 
 
-Valentin - 7972 
+Valentin - 7972
 Gabi/Samira/Kasia - 7968 
 André / Antonia - 7969 
 
@@ -32,7 +32,5 @@ André / Antonia - 7969
 
 ### Address: 
 TUMNIC  Building (buidling 718), Einsteinstr 1 
-
 If you take an exit from Max Weber Platz metro station, ecit from the right side. The building will be right infront of you.
-
 Press the button that says "Klinikum". Use the lift to go to level 5. Press the buzzer there.
