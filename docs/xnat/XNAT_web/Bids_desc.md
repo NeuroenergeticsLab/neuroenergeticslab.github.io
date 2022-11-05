@@ -27,7 +27,8 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 ![image](https://user-images.githubusercontent.com/40626584/200136018-163a29ad-4ff1-49f0-844f-87360248b922.png)
 
   - The folder structure will now look like this: 
-  ![image](https://user-images.githubusercontent.com/40626584/200136032-1bcd113d-762d-4da3-8b00-4ded3f6884d1.png)
+![image](https://user-images.githubusercontent.com/40626584/200136485-4d62b06f-cd28-42cb-985d-cb91eb58c7b0.png)
+
 
 - Now, click on the individual subjects, which you want to convert into BIDS from DICOM. As an example suppose we look into "Sub_01". Open Sub_01, click on MR sessions (highlighted in the below figure in blue)
 ![image](https://user-images.githubusercontent.com/40626584/200136090-a754ab05-92a9-4cf6-af21-6131ca19fe90.png)
