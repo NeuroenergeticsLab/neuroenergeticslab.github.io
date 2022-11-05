@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Meetings
+title: Foreing Students
 parent: Getting Started
 nav_order: 2
 ---
