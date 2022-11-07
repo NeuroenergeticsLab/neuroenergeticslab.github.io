@@ -8,14 +8,13 @@ nav_order: 3
 ## Neuroradiology 
 
 ``Martin Gruber (IT matters)`` 
-<martin.gruber@tum.de> 
-Mobile: 0179/9116164 
-Telephone: (089) 4140 - 7666 
+<martin.gruber@tum.de>  
+Mobile: 0179/9116164  
+Telephone: (089) 4140 - 7666  
 Office at Neuro-Kopf-Zentrum, Ismaninger Str. 22 
 
-``Sigrid Matussek (secretary of Prof Zimmer, head of Neuroradiology)`` 
-<sigrid.matussek@tum.de> 
-Telephone: (089) 4140 - 4651 
+``Sigrid Matussek (secretary of Prof Zimmer, head of Neuroradiology)`` <sigrid.matussek@tum.de>  
+Telephone: (089) 4140 - 4651  
 Office at Neuro-Kopf-Zentrum, Ismaninger Str. 22 
 
 
