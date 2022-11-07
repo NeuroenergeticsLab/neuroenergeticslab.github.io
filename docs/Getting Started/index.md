@@ -70,6 +70,5 @@ Congratulations!! You're hired.
 _Note: Ideally plan two to four weeks for the whole process if possible_
 
 
-
-Just checking if it works. ![image](https://user-images.githubusercontent.com/40626584/199732232-2483a82a-4cae-461f-840c-1b2f603b2e64.png)
+![image](https://user-images.githubusercontent.com/40626584/199732232-2483a82a-4cae-461f-840c-1b2f603b2e64.png)
 
