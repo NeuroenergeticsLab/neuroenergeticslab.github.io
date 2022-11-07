@@ -35,13 +35,13 @@ Press the button that says "Klinikum". Use the lift to go to level 5. Press the 
 
 ## translaTUM 
 1. **Lidia Seidl** (Assistant – Prof. Vasilis Ntziachristos, Chair of Biological Imaging (CBI) TUM)  
-``email:``<email.lidia.seidl@tum.de> 
+``email:``<email.lidia.seidl@tum.de>  
 ``phone:`` +49(0)89 4140 7211  
 ``fax:`` +49(0)89 4140 6748 
 
 
 2. **Thorsten Geerken** (SFB 824 Koordinator)  
-``email:``<Thorsten.Geerken@mri.tum.de>
+``email:``<Thorsten.Geerken@mri.tum.de>  
 ``Office:``Klinikum rechts der Isar, TUM , TranslaTUM / Geschäftsstelle Einsteinstr. 25 81675.  
 ``Tel:``  ++49 - (0)89 - 41 40 45 74  
 ``Fax:``  ++49 - (0)89 - 41 40 9191  
@@ -50,5 +50,5 @@ Press the button that says "Klinikum". Use the lift to go to level 5. Press the 
  
 ## Siemens / PET-MR 
 
-Scanner: 4140 - 7597 
+Scanner: 4140 - 7597  
 Techniker: Käsbauer: 0172-8904074 
