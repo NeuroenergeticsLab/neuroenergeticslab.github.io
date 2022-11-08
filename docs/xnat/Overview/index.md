@@ -11,7 +11,7 @@ nav_order: 1
 
 
 XNAT can be accesssed via three different ways:  
-- [XNAT web](xnat.tumnic.mgruber.eu/)
+- [XNAT web](xnat.tumnic.mgruber.eu/) ([_more info_](https://armos05.github.io/docs/xnat/XNAT_web/))
 - ``ssh connection``<username@xnat.tumnic.mgruber.eu>
 - [Jupyter Hub](http://10.0.4.1:8000/hub/login)
 
