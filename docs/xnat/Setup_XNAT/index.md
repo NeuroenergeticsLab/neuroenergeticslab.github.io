@@ -3,7 +3,7 @@ layout: default
 title: Setup XNAT
 parent: Data Pipeline
 has_children: true
-nav_order: 1
+nav_order: 2
 ---
 
 # Setup
