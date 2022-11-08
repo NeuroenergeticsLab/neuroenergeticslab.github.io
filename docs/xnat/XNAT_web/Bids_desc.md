@@ -3,7 +3,7 @@ layout: default
 title: Bids description.
 parent: XNAT web
 grand_parent: Data Pipeline
-nav_order: 4
+nav_order: 5
 ---
 
 ## Add BIDS Description to the series
