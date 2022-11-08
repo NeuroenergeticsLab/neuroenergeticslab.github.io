@@ -11,8 +11,8 @@ nav_order: 1
 
 
 XNAT can be accesssed via three different ways:  
-- ([XNAT web](xnat.tumnic.mgruber.eu/))
+- [XNAT web](xnat.tumnic.mgruber.eu/)
 - ``ssh connection``<username@xnat.tumnic.mgruber.eu>
-- ([Jupyter Hub](http://10.0.4.1:8000/hub/login))
+- [Jupyter Hub](http://10.0.4.1:8000/hub/login)
 
 _Note: If you are on Research Network you dont need openVPN for Jupyter Hub connection, otherwise you have to connect._
