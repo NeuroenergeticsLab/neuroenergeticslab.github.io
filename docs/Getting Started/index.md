@@ -46,7 +46,7 @@ This step will enable you to get access code for your @tum-email. As soon as you
 
 Note:_This rule may or may not apply to you. So ask HR for this._
 
-Please note that this is physical process, so you are expected to go Trogerstreet 6 and 523 1. Floor (sportmedicine/betriebsmedicine). You can send in your vaccination certificate online in advance to speed up the process. 
+Please note that this is physical process, so you are expected to go Trogerstreet 6 (yellow building) and go inside the **white** door right at the street. You also have to go to 523 1. Floor (sportmedicine/betriebsmedicine) for setting up medical appointments. You can send in your vaccination certificate online in advance to speed up the process. 
 
 
 
