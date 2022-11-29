@@ -35,7 +35,7 @@ Update your Work-in-progress here: Work in progress updates (monthly)
 
 Every 3 months (check calendar): 1:1 Status-meeting prepare according to this template and bring printed version: 
 
-**Quarterly Meetings** 
+**Quarterly Meetings**  
 30 minutes per person 
 
   
