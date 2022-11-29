@@ -17,7 +17,7 @@ This website serves as a guiding tool to familiarize yourself with a way of cond
 **Why is this important?**
 
 Imaging research produces vast amounts of data from different technologies in different formats. 
-Hereby, data is stored and organized differently by every researcher, making the traceability of data difficult. Additionally, data is analyzed heterogeneously using different software or different versions of the same software. Likewise, preprocessing analysis pipelines are also heterogeneous for the same type of data and their results are stored differently for every researcher.
+Hereby, data are stored and organized differently by every researcher, making the traceability of data difficult. Additionally, data are analyzed heterogeneously using different software or different versions of the same software. Likewise, preprocessing analysis pipelines are also heterogeneous for the same type of data and their results are stored differently for every researcher.
 
 **The solution**
 
