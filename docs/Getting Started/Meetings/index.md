@@ -25,7 +25,7 @@ max 20min presentation, afterwards discussion. Also, write to write to  <franzis
  
 
 - ``Monthly:`` 
-Tuesday (last in each month) 13:-16:00: 'Weisswurst'-Methods meeting  collect ideas for methods topics here: Topics Methodsmeeting (Wed.) 
+Tuesday (last in each month) 13:-16:00: 'Methods' meeting  collect ideas for methods topics here: Topics Methodsmeeting (Wed.) 
 Update your Work-in-progress here: Work in progress updates (monthly) 
 
  
