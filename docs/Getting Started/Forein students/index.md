@@ -5,7 +5,7 @@ parent: Getting Started
 nav_order: 2
 ---
 
-## Working/living in Germany 
+## Working/living in Germany .
 
 Check for renting (private) appartment in Munich: ([website](https://www.studentenwerk-muenchen.de/en/accommodation/private-accommodation-service/))
 General information about immigration to Germany: ([website](https://stadt.muenchen.de/en/immigration.html))
