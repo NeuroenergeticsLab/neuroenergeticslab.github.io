@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Foreing Students
+title: Foreign Students
 parent: Getting Started
 nav_order: 2
 ---
