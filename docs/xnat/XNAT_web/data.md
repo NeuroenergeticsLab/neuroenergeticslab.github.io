@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Upload data in Xnat.
-parent: XNAT web
+parent: XNAT web manual
 grand_parent: Data Pipeline
 nav_order: 3
 ---
