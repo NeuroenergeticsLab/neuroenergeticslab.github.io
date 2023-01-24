@@ -7,7 +7,7 @@ nav_order: 3
 ---
 
 ## Upload data in XNAT.
-- For easier upload you can download ([XNAT Desktop Client](https://wiki.xnat.org/xnat-tools/xnat-desktop-client-dxm)). Install the UI and login with your XNAT web user name and password.
+- For easier upload you can download ([XNAT Desktop Client](https://wiki.xnat.org/xnat-tools/xnat-desktop-client-dxm)). Install the UI and login with your XNAT web user name and password. For advanced data upload using command line click [here](https://armos05.github.io/docs/xnat/XNAT_web/Advanced%20Upload.html)
 
 ![image](https://user-images.githubusercontent.com/40626584/200124341-90a04c8e-3b7d-4c73-a57f-2754965a34e9.png)
 
