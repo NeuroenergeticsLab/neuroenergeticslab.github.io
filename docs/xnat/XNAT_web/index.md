@@ -3,7 +3,7 @@ layout: default
 title: XNAT web manual
 parent: Data Pipeline
 has_children: true
-nav_order: 6
+nav_order: 3
 ---
 
 # XNAT web interface
