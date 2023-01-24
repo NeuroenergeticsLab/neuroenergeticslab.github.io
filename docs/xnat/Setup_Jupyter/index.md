@@ -3,7 +3,7 @@ layout: default
 title: Setup Jupyter
 parent: Data Pipeline
 has_children: true
-nav_order: 7
+nav_order: 4
 ---
 
 # Setup
