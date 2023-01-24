@@ -11,8 +11,9 @@ nav_order: 3
 
 ![image](https://user-images.githubusercontent.com/40626584/200375125-744e7633-ecd2-41eb-b602-e5a25528e872.png)
 
+_Quick guide for beginners how to get started with your project in XNAT_
 
-This Xnat web interface, is an online instance of XNAT running on our servers.Get your web XNAT web credentials by contacting the lab members and login the web portal [here](https://xnat.tumnic.mgruber.eu/). This web version allows you to upload your dataset and run your analysis. 
+This Xnat web interface, is an online instance of XNAT running on our servers. Get your web XNAT web credentials by contacting the lab members and login the web portal [here](https://xnat.tumnic.mgruber.eu/). This web version allows you to upload your dataset and run your analysis. 
 
 This section highlights briefs on:
 - **Login XNAT** : How to login xnat web.
