@@ -1,6 +1,6 @@
 ---
 layout: default
-title: XNAT web
+title: XNAT web manual
 parent: Data Pipeline
 has_children: true
 nav_order: 6
