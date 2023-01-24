@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Login Xnat
-parent: XNAT web
+parent: XNAT web manual
 grand_parent: Data Pipeline
 nav_order: 1
 ---
