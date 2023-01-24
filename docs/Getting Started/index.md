@@ -7,7 +7,9 @@ has_children: true
 
 # Getting Started
 
-This page underlines some steps to help you get familiar with the Neuroenergetics Lab and fulfill the administrative obligations. Below attached table presents a brief overview of the tools that we use.
+(This page is mostly for students joining the Val neurolab)
+
+ Below are some steps to help you get familiar with the Neuroenergetics Lab and fulfill the administrative obligations. A table is attached below, it presents a brief overview of the tools that we use.
 
 | Job                 | Tool Used           |
 | ------------------- | ------------------- |
