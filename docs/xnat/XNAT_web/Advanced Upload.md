@@ -20,6 +20,7 @@ nav_order: 4
 ***
 
 # 1.0. Upload of Data
+*If you need to upload only a couple of DICOMs for analysis please refer the section above and skip this*
 
 ### 1.1. Manual upload
 
