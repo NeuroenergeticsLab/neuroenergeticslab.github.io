@@ -3,7 +3,7 @@ layout: default
 title: Import Data
 parent: XNAT web manual
 grand_parent: Data Pipeline
-nav_order: 4
+nav_order: 5
 ---
 
 ## Import files from XNAT.
