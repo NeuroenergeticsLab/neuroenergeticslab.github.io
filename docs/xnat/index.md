@@ -2,7 +2,7 @@
 layout: default
 title: Data Pipeline
 has_children: true
-nav_order: 2
+nav_order: 3
 ---
 
 # Welcome to our data pipeline
