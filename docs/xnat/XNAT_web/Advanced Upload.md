@@ -3,7 +3,7 @@ layout: default
 title: Advanced Data Upload
 parent: XNAT web manual
 grand_parent: Data Pipeline
-nav_order: 7
+nav_order: 4
 ---
 
 <details markdown="block">
