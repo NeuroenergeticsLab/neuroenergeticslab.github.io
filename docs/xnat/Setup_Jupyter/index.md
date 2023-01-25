@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Setup Jupyter
+title: Pyxnat
 parent: Data Pipeline
 has_children: false
 nav_order: 4
@@ -21,76 +21,6 @@ Here you can find help with the setup of Jupyter Notebook and access data on ser
  
 
 ***
-
-
-## Connect to Jupyter Notebook server on a remote server
-
-1. Open terminal (PowerShell on Windows 10)
-
-    <a name="Setup/pyxnat/Step2"></a>
-
-2. SSH to the remote server with port forwarding option
-
-    ```bash
-    ssh -L<localport>:localhost:<remoteport> <username>@xnat.tumnic.mgruber.eu
-    ```
-
-    local computer ↔ `localport` ↔ remote server ↔ `remoteport` ↔ jupyter server
-
-    - `localport` is the port that will be open on local computer, it will be used when opening the notebook in the browser
-
-    - `remoteport` is the port that will connect the remote server with jupyter server
-
-    These two (4-digit) numbers can be the same.
-
-3. Change directory to the common notebooks folder (can be any folder on the server)
-
-    ```bash
-    cd <path/to/jupyter/folder>
-    ```
-
-4. Start jupyter server
-
-    ```bash
-    jupyter notebook --no-browser --port=<remoteport> &
-    ```
-
-    `--no-browser` to not open browser window (need to do this locally, not on the server)
-
-    `--port` enter the same `remoteport` number from [step 2](#Setup/pyxnat/Step2)
-
-    `&` tells the terminal to run the server in the background (so that the terminal is still available to enter commands etc.)
-
-5. Open the notebook in a browser window [(Fig.1)](#Setup/pyxnat/Open_Notebook)
-
-    type `localhost:<localport>` in the url window (localport from [step 2](#Setup/pyxnat/Step2))
-    or copy and paste one of these lines
-
-
-    <a name="Setup/pyxnat/Open_Notebook"></a>
-
-    | ![Open_Notebook](../../../pics/open-notebook.png) | 
-    |:--:| 
-    | **Fig.1** *Open Notebook.* |
-
-
-6. Reconnect to the notebook
-
-    Connect to the server [(step 2)](#Setup/pyxnat/Step2) and check the running jupyter servers:
-
-    ```bash
-    jupyter notebook list
-    ```
-
-    Copy-paste the line with notebook url
-
-7. Stop Jupyter server
-
-    ```bash
-    jupyter stop <port>
-    ```
-
-    All the variables in this notebook will be reset
 
 
 ## Access the data on XNAT with pyxnat
