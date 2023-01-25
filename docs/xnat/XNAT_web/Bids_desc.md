@@ -24,27 +24,27 @@ Also before running any other analysis, this step is a pre-requisite.
 The purpose of this step is to match series descriptions on XNAT with correct BIDS names.  
 
 ### 1.1 Create a config Folder
-Open your project page. It will look something like this. Here you can see the subjects and the actions menu.
+- Open your project page. It will look something like this. Here you can see the subjects and the actions menu.
 ![image](https://user-images.githubusercontent.com/40626584/200135858-5afc97b1-cee7-40b4-ba40-abddde22fad6.png)
 
-Now, in the actions menu, click on "Manage Files". By default you will see a blank folder structure. 
+- Now, in the actions menu, click on "Manage Files". By default you will see a blank folder structure. 
 ![image](https://user-images.githubusercontent.com/40626584/200135954-e42d46dd-633f-4436-a69d-00f8327b0d64.png)
 
 
-Click on Add Folder. Choose "Resources" as level and name the project "config" (make sure it's not in caps) and then click on create.  
+- Click on Add Folder. Choose "Resources" as level and name the project "config" (make sure it's not in caps) and then click on create.  
 
 ![image](https://user-images.githubusercontent.com/40626584/200136018-163a29ad-4ff1-49f0-844f-87360248b922.png)
 
-The folder structure will now look like this: 
+- The folder structure will now look like this: 
 ![image](https://user-images.githubusercontent.com/40626584/200136485-4d62b06f-cd28-42cb-985d-cb91eb58c7b0.png)
 
 ### 1.2 Check the names of your experiments scans.
 
-Now, click on the individual subjects, which you want to convert into BIDS from DICOM. As an example suppose we look into "Sub_01". Open Sub_01, click on MR sessions (highlighted in the below figure in blue)
+- Now, click on the individual subjects, which you want to convert into BIDS from DICOM. As an example suppose we look into "Sub_01". Open Sub_01, click on MR sessions (highlighted in the below figure in blue)
 ![image](https://user-images.githubusercontent.com/40626584/200136090-a754ab05-92a9-4cf6-af21-6131ca19fe90.png)
 
 
-So, the given subject has scans 26, 38, 39 and 40. Now click on Manage Files. 
+- So, the given subject has scans 26, 38, 39 and 40. Now click on Manage Files. 
 ![image](https://user-images.githubusercontent.com/40626584/214589657-280880f7-f69c-4dbf-8a38-71f0a89a8ef1.png)
 ![image](https://user-images.githubusercontent.com/40626584/214584242-53647dc0-62e5-4547-aa0d-5f59d78da08f.png)
 
@@ -53,7 +53,7 @@ So, the given subject has scans 26, 38, 39 and 40. Now click on Manage Files.
 As you can see that currently, these scans only has DICOM files. Now we will convert the DICOM files of scan 26 and 38 into BIDS structure . For that *copy the series description against the target scans*.
 
 ### 1.3 Create a bidsmap file: 
-Now open any editor (Notepad ++, VS Code or any other), create a file with name 'bidsmap.json'.
+- Now open any editor (Notepad ++, VS Code or any other), create a file with name 'bidsmap.json'.
 
 "Follow the given code structure", note that for each scan there is a { } block separated from another { } with comma". It would be good idea to to check if your json file is valid here: https://jsonlint.com/ . And copy the same description as stated in the above point.
 
@@ -61,7 +61,7 @@ Now open any editor (Notepad ++, VS Code or any other), create a file with name 
 
 ![image](https://user-images.githubusercontent.com/40626584/214589024-2f1e1286-50de-4ec6-a07d-7b4513b7808e.png)
 
-Save the file as bidsmap.json.
+- Save the file as bidsmap.json.
 
 ### 1.4 Upload the bidsmap.json file:
 - Click on upload File as in here. 
@@ -85,7 +85,7 @@ NOTE:*Please make sure that you activate the 2021 version*
 - Wait for Background process to complete till 100%. 
  
 ### 1.7 Check the Results: 
-Now, click on Sub 01, and MR session and then go to Manage Files. As you can see BIDS structure has now formed for scans 26 and 38. 
+- Now, click on Sub 01, and MR session and then go to Manage Files. As you can see BIDS structure has now formed for scans 26 and 38. 
  ![image](https://user-images.githubusercontent.com/40626584/214585147-9b0b4da6-5986-4842-8f5d-c3d3d13f8ab9.png)
 
 
