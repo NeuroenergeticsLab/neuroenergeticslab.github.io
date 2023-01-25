@@ -8,7 +8,8 @@ nav_order: 1
 ## The overview of the pipeline.
 The XNAT pipeline at Neuroenergetics Lab looks like this.
 
-![image](https://user-images.githubusercontent.com/40626584/200499588-b6458610-8ef0-4dc8-86d9-f747e2707ee5.png)
+![image](https://user-images.githubusercontent.com/40626584/214579877-0ee3bf07-0217-4c40-ad55-785ff34fa29d.png)
+
 
 
 XNAT can be accesssed via three different ways.(Click on the corresponding links to connect to xnat now):  
