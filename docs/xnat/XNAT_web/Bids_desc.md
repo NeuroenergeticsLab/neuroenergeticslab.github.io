@@ -70,7 +70,7 @@ As you can see that currently, these scans only has DICOM files. Now we will con
 - Now your file structure will look like this.
 ![image](https://user-images.githubusercontent.com/40626584/200136226-ef10e75c-35c2-46d8-acd2-1e280e1bebf6.png)
 
-## 1.5 Activate Dicom to BIDS container.
+### 1.5 Activate Dicom to BIDS container.
 - Open your project and then go to **Project > Actions > Project settings**.
 - Enable ``dcm2bids PAR-REC compatible`` command.
 ![image](https://user-images.githubusercontent.com/40626584/214590327-64ed85fa-cb87-4408-a8fb-e417f3af6df4.png)
