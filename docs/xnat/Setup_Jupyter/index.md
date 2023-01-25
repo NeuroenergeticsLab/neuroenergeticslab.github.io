@@ -8,7 +8,7 @@ nav_order: 4
 
 # Setup
 
-Here you can find help with the setup of Jupyter.
+Here you can find help with the setup of Jupyter Notebook and access data on server using Pyxnat.
 
 <details markdown="block">
   <summary>
@@ -18,8 +18,7 @@ Here you can find help with the setup of Jupyter.
 1. TOC
 {:toc}
 </details>
-
-<br/>   
+ 
 
 ***
 
