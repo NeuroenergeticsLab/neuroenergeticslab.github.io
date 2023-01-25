@@ -14,4 +14,5 @@ This guide documents some of the steps that you may require to do during your ti
 - [Overview of Pipeline](https://armos05.github.io/docs/xnat/Overview/) highlights the infrascture of the XNAT analysis pipeline being used in the lab.
 - [Setup XNAT](https://armos05.github.io/docs/xnat/Setup_XNAT/) head over to this section if you need to set-up XNAT on your server, and update the administrative settings. 
 - [Xnat Web Manual](https://armos05.github.io/docs/xnat/XNAT_web/) this manual is the most you will need to get started on working with XNAT. So if you are a beginner and want to know how to process your data in XNAT, this is the only section you will need. *Although you may have to contact the lab members to get your credentials for XNAT web*
+- [Run Docker Container](https://armos05.github.io/docs/Run%20container/), click here if you want to enable a container and run it on your project.
 - [How to Edit](https://armos05.github.io/docs/Suggest%20Edits/) if you want to edit this manual, head over to this section, we will be more than happy to imporve this documentation from valuable comments.
