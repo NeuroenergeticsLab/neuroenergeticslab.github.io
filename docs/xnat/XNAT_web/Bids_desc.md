@@ -35,8 +35,9 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 
 
   - So, the given subject has scans 17, 26, 38, 39 and 40. Now click on Manage Files. 
-![image](https://user-images.githubusercontent.com/40626584/200136111-0158e078-3855-4942-9d4e-22e3ed5ec87c.png)
-![image](https://user-images.githubusercontent.com/40626584/200136121-54c9996d-9bc1-4b89-9446-41e8ab9943f1.png)
+![image](https://user-images.githubusercontent.com/40626584/214584737-c978c860-6988-4c35-bc01-656101a8e685.png)
+![image](https://user-images.githubusercontent.com/40626584/214584242-53647dc0-62e5-4547-aa0d-5f59d78da08f.png)
+
 
 
 - As you can see apart from Scan 17, other scans only has DICOM files. Now we will convert the DICOM file of scan 26 and 38 into BIDS structure as well. For that copy the series description against the target scans.  
@@ -61,7 +62,8 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 ![image](https://user-images.githubusercontent.com/40626584/200136394-26aa1071-d781-4a1d-849f-6318dc831517.png)
 
 - Wait for Background process to complete till 100%. Now, click on Sub 01, and MR session and then go to Manage Files. As you can see BIDS structure has now formed for scans 26 and 38. 
- ![image](https://user-images.githubusercontent.com/40626584/200136423-335ab4a2-fa09-4ae9-adc9-2c9e90a8eca9.png)
+ ![image](https://user-images.githubusercontent.com/40626584/214585147-9b0b4da6-5986-4842-8f5d-c3d3d13f8ab9.png)
+
 
 
 
