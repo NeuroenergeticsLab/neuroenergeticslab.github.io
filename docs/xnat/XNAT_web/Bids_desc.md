@@ -64,10 +64,10 @@ Now open any editor (Notepad ++, VS Code or any other), create a file with name 
 Save the file as bidsmap.json.
 
 ### 1.4 Upload the bidsmap.json file:
-Click on upload File as in here. 
+- Click on upload File as in here. 
 ![image](https://user-images.githubusercontent.com/40626584/200136197-a7cd76a3-31d2-4140-99a5-c6d3ec39277f.png)
 
-Now your file structure will look like this.
+- Now your file structure will look like this.
 ![image](https://user-images.githubusercontent.com/40626584/200136226-ef10e75c-35c2-46d8-acd2-1e280e1bebf6.png)
 
 ## 1.5 Activate Dicom to BIDS container.
