@@ -19,7 +19,7 @@ These are the first steps when starting with XNAT:
 1. **Login XNAT** : How to login xnat web.
 2. **Create Project** : How to create your project, add subjects and share your files.
 3. **Upload Data** : How to upload your dataset in XNAT for processing both using GUI and commandline methods.
-4. **Import Data** : How to load data from the XNAT servers.
+4. **Export Data** : How to load data from the XNAT servers.
 5. **Bids Desciption** : How to add the BIDS description to your dataset. This step is required to convert your data strucutre in BIDS FORMAT. Brain Imaging Data Structure (BIDS), is a simple and easy to adopt way of organizing neuroimaging and behavioral data.
 6. **Defacing Scans**: How to remove the facial characterstics from your scans to ensure patient privacy.
 
