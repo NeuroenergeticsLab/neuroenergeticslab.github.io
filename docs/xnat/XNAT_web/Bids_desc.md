@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bids description.
+title: BIDS Configuration.
 parent: XNAT web manual
 grand_parent: Data Pipeline
 nav_order: 6
@@ -16,7 +16,7 @@ nav_order: 6
 
 
 ## 1.0 Add BIDS Description to the series
-This step is required to convert the DICOM files you just uploaded in the XNAT website into the BIDS structure. 
+This step is required to convert the DICOM files you just uploaded in the XNAT website into the [BIDS structure](https://bids.neuroimaging.io/). 
 The Brain Imaging Data Structure (BIDS) is a standard for organizing, annotating, and describing data collected during neuroimaging experiments. 
 It is done so that you do not loose metadata on your file structure. 
 
