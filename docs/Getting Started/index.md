@@ -35,7 +35,7 @@ To get this, Please send (valentin.riedl@tum.de) email with following infos:
 ``birth date``: 
 ``phone``:  
 ``private email``: 
-This step will enable you to get access code for your @tum-email. As soon as you get the email address login at ([website](www.mail.tum.de)) and do the following:
+This step will enable you to get access code for your @tum-email. As soon as you get the email address login at `www.mail.tum.de` and do the following:
 - Register with your @tum-email account for a MS OneDrive account at ([website](https://www/microsoft.com/de-de/education/products/office))
 - This is a pre-requisite to get access to our One Drive lab space ``ValNeuroLab``(Teams and One note) and a 5TB online space.
 - In MS Teams connect to ``ValNeuroLab`` team. Use the team code:*7i94j8z*. **This is the cenntral place for all communications**
