@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Import Data
+title: Export Data
 parent: XNAT web manual
 grand_parent: Data Pipeline
 nav_order: 5
 ---
 
-## Import files from XNAT.
+## Export files from XNAT.
 Users can download image session data from XNAT in a variety of contexts: 
 - Users can download scan files from any image session on a project report page by selecting Download Images from the actions menu 
 - Users can download scan files from an individual session report page by selecting Download > Download Images from the actions menu. 
