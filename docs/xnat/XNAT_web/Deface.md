@@ -18,10 +18,12 @@ Therefore, we use algorithms, to deface the scans like ``pydeface``.
 - Wait for the process to be completed.
 
 - After removing the facial features the scan will look like this:
+
 ![image](https://user-images.githubusercontent.com/40626584/214870007-1e4a4ac7-b92b-45a7-98c8-4757a5063bd6.png)
 
 
 - Now, If we look at 3D reconstruction of say T2 weighted scan, it gets defaced like this:
+
 ![image](https://user-images.githubusercontent.com/40626584/200383678-01395bd9-c276-4a91-8349-57649767313a.png)
 
 
