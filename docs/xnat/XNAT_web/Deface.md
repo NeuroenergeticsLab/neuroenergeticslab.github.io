@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Defacing scans
-parent: XNAT web manual
 grand_parent: Data Pipeline
 nav_order: 7
 ---
 
+parent: XNAT web manual
 ## Defacing Brain Scans.
 With improvements in facial recognition softwares and high scan quality, there is an increased risk of participants being identified, as 2D MR scans can be reconstructed in 3D space. They are a threat to individual patient privacy, even when all other personal information has been removed.
 
