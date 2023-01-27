@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Overview of Pipeline
+title: Overview of architecture
 parent: Data Pipeline
 nav_order: 1
 ---
