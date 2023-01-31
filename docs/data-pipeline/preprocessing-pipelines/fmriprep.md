@@ -32,7 +32,10 @@ Default steps and the processing flowchart is given below: <sup><sub>(Source: fM
 
 ### 1.2 Output:
 -     Skull-stripped, intensity corrected, motion corrected, co-registered (BOLD -> T1w) images in native and/or MNI space 
-      - If you supplied the fieldmap information (see below), the correction is carried out automatically 
+-     If you supplied the fieldmap information (see below), the correction is carried out automatically 
 -     BOLD data quality control and confound regressors 
-      - Note: No actual regression is carried out automatically 
-- An output log file allowing you to review every step fMRIPrep conducted, including visual documentation 
+-     Note: No actual regression is carried out automatically 
+- An output log file allowing you to review every step fMRIPrep conducted, including visual documentation.
+
+### 1.3 Options for XNAT application
+
