@@ -38,4 +38,20 @@ Default steps and the processing flowchart is given below: <sup><sub>(Source: fM
 - An output log file allowing you to review every step fMRIPrep conducted, including visual documentation.
 
 ### 1.3 Options for XNAT application
-
+- If you want **fieldmap correction** 
+  - Supply fieldmap images from Philips or Siemens 
+    - **IMPORTANT:** For Philips data, you have to run the "Fieldmap data prep (philips) for fmriprep" container beforehand.
+    - This renames the files and adds metadata to the .json sidecars that enable fmriprep to run the correction 
+- If you want **slice-time correction** 
+  - Supply slice-timing info in the .json files ("SliceTiming" field) 
+  - Usually not recommended for short TRs 
+- If you want **freesurfer parcellation** (will take much more time!) 
+  - Delete the "fs-no-reconall" text in the container launcher 
+- If you (don't) want **ICA** 
+  - Leave or delete the "--use-aroma" flag in the container launcher 
+- If you want different output spaces and resolutions 
+  - Provide the correct space(s) in the launcher.
+  - Multiple can be provided, separated by a space (i.e. "anat MNI152NLin2009cAsym" for native + MNI space).
+  - Read up on options [here](https://fmriprep.org/en/stable/spaces.html)
+ 
+- For all other options, you have to run fMRIPrep on development with the necessary flags (see next paragraph for some options) 
