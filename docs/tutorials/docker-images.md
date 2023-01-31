@@ -82,6 +82,9 @@ A super involved, but (arguably) cool way to check the weather 🙂
 -  The container accesses wttr.in and prints the results to the stdout - just what I wanted! Since I specified the default command with `CMD` and my city with `ENV` commands, I don't need to specify the command with `docker run`. However, if I wanted to know the weather in Berlin, I could specify that in a custom command that will overwrite the one I specified in the Dockerfile.  
 `docker run --rm valneurolab/weather-report:latest curl --silent wttr.in/Berlin`
 
+- Or, I can overvrite that `CITY` variable I set in the Dockerfile withe the `-e` switch:  
+`docker run --rm -e "CITY=Berlin" valneurolab/weather-report:latest`  
+
 -  It is also possible to run a different command altogether. For example, if I wanted to list the contents of the home directory inside the contianer:  
 `docker run --rm valneurolab/weather-report:latest ls -lh /home/roman`
 
