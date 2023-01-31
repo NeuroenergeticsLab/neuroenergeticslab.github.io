@@ -12,4 +12,4 @@ has_toc: false
 - [Roman Belenya](https://github.com/Roman-Belenya)
 - [Gabriel Castrillon](https://github.com/gabocas)
 
-And from the good peeps of [ValNeuro Lab](valentinriedl.de/) 
+And from the good peeps of [ValNeuro Lab](valentinriedl.de/)  :brain:
