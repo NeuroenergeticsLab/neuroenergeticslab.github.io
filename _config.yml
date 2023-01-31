@@ -28,11 +28,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: NeuroenergeticsLab
 
 # Build settings
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed 
-#plugins:
-#  - jekyll-remote-theme
+  # - jekyll-remote-theme
 
 #remote_theme: ngzhio/jekyll-theme-hamilton
 
