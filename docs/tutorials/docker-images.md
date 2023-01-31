@@ -76,7 +76,7 @@ CMD [ "/bin/bash", "-c", "curl --silent wttr.in/$CITY | tee /home/roman/current-
 - Now, I need to use the `docker run` command and type the name of my image. The `--rm` switch makes sure that the container is removed after it has executed its commands. (Otherwise, the container will persist and will be visible with `docker ps -a` with the Exited status)  
 `docker run --rm valneurolab/weather-report:latest`
 
-[image]  
+![output-screenshot](https://user-images.githubusercontent.com/25939378/215902889-86930e58-bdca-4bba-b009-8a5389280fec.png)
 A super involved, but (arguably) cool way to check the weather 🙂
 
 -  The container accesses wttr.in and prints the results to the stdout - just what I wanted! Since I specified the default command with `CMD` and my city with `ENV` commands, I don't need to specify the command with `docker run`. However, if I wanted to know the weather in Berlin, I could specify that in a custom command that will overwrite the one I specified in the Dockerfile.  
@@ -104,6 +104,6 @@ And my recipient could load it with:
 --- 
 References:
 
-[1](https://docs.docker.com/engine/reference/builder/){:target="_blank"} Description of Dockerfile commands  
-[2](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/){:target="_blank"} Dockerfile best practices  
-[3](https://docs.docker.com/engine/reference/run/){:target="_blank"} Docker run reference - useful to launch containers
+[1](https://docs.docker.com/engine/reference/builder/) Description of Dockerfile commands  
+[2](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) Dockerfile best practices  
+[3](https://docs.docker.com/engine/reference/run/) Docker run reference - useful to launch containers
