@@ -15,7 +15,7 @@ nav_order: 6
 </details>
 
 
-## 1.0 Add BIDS Description to the series
+## Add BIDS Description to the series
 This step is required to convert the DICOM files you just uploaded in the XNAT website into the [BIDS structure](https://bids.neuroimaging.io/). 
 The Brain Imaging Data Structure (BIDS) is a standard for organizing, annotating, and describing data collected during neuroimaging experiments. 
 It is done so that you do not loose metadata on your file structure. 
@@ -23,7 +23,7 @@ It is done so that you do not loose metadata on your file structure.
 Also before running any other analysis, this step is a pre-requisite. 
 The purpose of this step is to match series descriptions on XNAT with correct BIDS names.  
 
-### 1.1 Create a config Folder
+### Create a config Folder
 - Open your project page. It will look something like this. Here you can see the subjects and the actions menu.
 ![image](https://user-images.githubusercontent.com/40626584/200135858-5afc97b1-cee7-40b4-ba40-abddde22fad6.png)
 
@@ -38,7 +38,7 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 - The folder structure will now look like this: 
 ![image](https://user-images.githubusercontent.com/40626584/200136485-4d62b06f-cd28-42cb-985d-cb91eb58c7b0.png)
 
-### 1.2 Check the names of your experiments scans.
+### Check the names of your experiments scans.
 
 - Now, click on the individual subjects, which you want to convert into BIDS from DICOM. As an example suppose we look into "Sub_01". Open Sub_01, click on MR sessions (highlighted in the below figure in blue)
 ![image](https://user-images.githubusercontent.com/40626584/200136090-a754ab05-92a9-4cf6-af21-6131ca19fe90.png)
@@ -52,7 +52,7 @@ The purpose of this step is to match series descriptions on XNAT with correct BI
 
 As you can see that currently, these scans only has DICOM files. Now we will convert the DICOM files of scan 26 and 38 into BIDS structure . For that *copy the series description against the target scans*.
 
-### 1.3 Create a bidsmap file: 
+### Create a bidsmap file: 
 - Now open any editor (Notepad ++, VS Code or any other), create a file with name 'bidsmap.json'.
 
 "Follow the given code structure", note that for each scan there is a { } block separated from another { } with comma". It would be good idea to to check if your json file is valid here: https://jsonlint.com/ . And copy the same description as stated in the above point.
@@ -63,28 +63,28 @@ As you can see that currently, these scans only has DICOM files. Now we will con
 
 - Save the file as bidsmap.json.
 
-### 1.4 Upload the bidsmap.json file:
+### Upload the bidsmap.json file:
 - Click on upload File as in here. 
 ![image](https://user-images.githubusercontent.com/40626584/200136197-a7cd76a3-31d2-4140-99a5-c6d3ec39277f.png)
 
 - Now your file structure will look like this.
 ![image](https://user-images.githubusercontent.com/40626584/200136226-ef10e75c-35c2-46d8-acd2-1e280e1bebf6.png)
 
-### 1.5 Activate Dicom to BIDS container.
+### Activate Dicom to BIDS container.
 - Open your project and then go to **Project > Actions > Project settings**.
 - Enable ``dcm2bids PAR-REC compatible`` command.
 ![image](https://user-images.githubusercontent.com/40626584/214590327-64ed85fa-cb87-4408-a8fb-e417f3af6df4.png)
 
 NOTE:*Please make sure that you activate the 2021 version*
 
-### 1.6 Run the Container:
+### Run the Container:
 - Now, Click on "Processing Dashboard" and "MR session" (or whatever session you are working on). Click on the "Sub_01" checkbox. Go to the "Select Job" menu and select "dcmparrec2niftibids". 
 - And then click on Launch Job. And then click on "Run Container". 
 ![image](https://user-images.githubusercontent.com/40626584/200136394-26aa1071-d781-4a1d-849f-6318dc831517.png)
 
 - Wait for Background process to complete till 100%. 
  
-### 1.7 Check the Results: 
+### Check the Results: 
 - Now, click on Sub 01, and MR session and then go to Manage Files. As you can see BIDS structure has now formed for scans 26 and 38. 
  ![image](https://user-images.githubusercontent.com/40626584/214585147-9b0b4da6-5986-4842-8f5d-c3d3d13f8ab9.png)
 

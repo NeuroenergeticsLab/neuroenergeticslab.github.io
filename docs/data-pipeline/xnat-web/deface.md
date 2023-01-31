@@ -3,7 +3,7 @@ layout: default
 title: Defacing scans
 parent: XNAT web manual
 grand_parent: Data pipeline
-nav_order: 7
+nav_order: 8
 ---
 
 ## Defacing Brain Scans.

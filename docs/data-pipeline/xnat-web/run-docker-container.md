@@ -1,12 +1,14 @@
 ---
 layout: default
 title: Run docker container
-nav_order: 4
+parent: XNAT web manual
+grand_parent: Data pipeline
+nav_order: 7
 ---
 
-## How to Run Docker container on your data:
+## How to Run Docker container on your data
 
-1. Before you run anycontainers, expect DICOM to BIDS, you need to structure your project in a BIDS compliant form. Click [here](https://armos05.github.io/docs/xnat/XNAT_web/Bids_desc.html) to first do that.
+1. Before running containers that require BIDS data structure, you need to structure your project in a BIDS compliant form. Click [here](./bids-configuration.md) to first do that.
 2. Now, Go to the home page of your project and in the Actions menu click on "Project Setting".
 
 ![image](https://user-images.githubusercontent.com/40626584/214611509-33cb2f16-4aa8-41c4-a27f-20388ed59642.png)
