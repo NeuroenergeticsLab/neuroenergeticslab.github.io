@@ -77,6 +77,14 @@ Default steps and the processing flowchart is given below: <sup><sub>(Source: fM
     	- Produce a graph/flowchart of the process
     	- Specify that no dummy scans are in the BOLD file (default for Philips)
     	- Find the Freesurfer license in LICENSE_PATH
-![image](https://user-images.githubusercontent.com/40626584/215750149-c89bc312-01a3-440a-88e5-91c142ceccf6.png)
+  - Example commands to execute on fMRIprep on development server.
+    - In one In one step without entering the container: This is a bit quicker but your arguments need to be relative to the input folder. Also you omit the "fmriprep" command and just pass the arguments, like so:
 
-				
+``docker run -it --rm -v YOURDATA:/input poldracklab/fmriprep:latest /input/rawdata/ /input/derivatives/ participant --fs-no-reconall -w /input/fmriprep_work/ --mem_mb 24000 --write-graph --dummy-scans 0 --fs-license-file /input/FSLicence/license.txt``
+
+    - In two steps: You can also first enter the container. A bit more work, but you can test individual steps and your get tab-completion for your paths.
+    - Docker call:
+ ``docker run -it --rm --entrypoint /bin/bash -v /RAID1/tmp/erc-wp1/qBOLD/:/input poldracklab/fmriprep:latest``
+
+These errors are normal: groups: cannot find name for group ID 1541800513
+Could not find conda environment: jupyterhub_py37
