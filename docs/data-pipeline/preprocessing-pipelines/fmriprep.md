@@ -67,4 +67,16 @@ Default steps and the processing flowchart is given below: <sup><sub>(Source: fM
   - The "default" command:
     - § fmriprep RAWDATA_PATH OUTPUT_PATH participant --fs-no-reconall -w WORKING_DIR_PATH --mem_mb 24000 --write-graph --dummy-scans 0 --fs-license-file LICENSE_PATH
     - Explanation:
+    	- Run fmriprep
+    	- Take RAWDATA_PATH a as input (e.g. /RAID1/tmp/mystudy/rawdata)
+    	- Take OUTPUT_PATH as output
+    	- Analyse participants separately (this argument literally has to say "participants".
+    	- Do not run freesurfer for parcellation or surface reconstruction (saves a lot of time)
+    	- Save intermediate results to WORKING_DIR_PATH (helps debugging a lot)
+    	- Allocate 24gb of memory (higher values might crash it!)
+    	- Produce a graph/flowchart of the process
+    	- Specify that no dummy scans are in the BOLD file (default for Philips)
+    	- Find the Freesurfer license in LICENSE_PATH
+![image](https://user-images.githubusercontent.com/40626584/215750149-c89bc312-01a3-440a-88e5-91c142ceccf6.png)
+
 				
