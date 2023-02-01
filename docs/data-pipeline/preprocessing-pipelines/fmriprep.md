@@ -84,7 +84,26 @@ Default steps and the processing flowchart is given below: <sup><sub>(Source: fM
 
     - In two steps: You can also first enter the container. A bit more work, but you can test individual steps and your get tab-completion for your paths.
     - Docker call:
- ``docker run -it --rm --entrypoint /bin/bash -v /RAID1/tmp/erc-wp1/qBOLD/:/input poldracklab/fmriprep:latest``
+    ``docker run -it --rm --entrypoint /bin/bash -v /RAID1/tmp/erc-wp1/qBOLD/:/input poldracklab/fmriprep:latest``
+    These errors are normal: groups: 
+      - cannot find name for group ID 1541800513
+      - Could not find conda environment: jupyterhub_py37.
+      
+    - Fmriprep call:
+    ``fmriprep /input/rawdata/ /input/derivatives/ participant --fs-no-reconall -w /input/fmriprep_work/ --mem_mb 24000 --write-graph --dummy-scans 0 --fs-license-file /input/FSLicence/license.txt``
+    
+#### 1.4.2 I want surface images (GIFTI files)
+- Remove --fs-no-reconall flag.
+- Optional: Provide T2w and/or FLAIR image.
+- Read up: [here](https://fmriprep.org/en/stable/workflows.html#surface-preprocessing).
 
-These errors are normal: groups: cannot find name for group ID 1541800513
-Could not find conda environment: jupyterhub_py37
+#### 1.4.3 I want to specify another output space (non MNI space..)
+- Use --output-spaces flag. Read up:[here](https://fmriprep.org/en/stable/spaces.html) 
+- For native space (i.e. Only registration of BOLD -> T1w) 
+ ``--output-spaces anat`` 
+- You can provide multiple output spaces (separated by a space) 
+
+ 
+#### 1.4.1 I want denoising via FSL's ICA-AROMA
+- Use --use-aroma 
+- Read up: [here](https://fmriprep.org/en/stable/workflows.html?#ica-aroma)
