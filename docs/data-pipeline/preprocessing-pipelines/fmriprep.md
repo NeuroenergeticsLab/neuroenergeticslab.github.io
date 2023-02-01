@@ -104,6 +104,6 @@ Default steps and the processing flowchart is given below: <sup><sub>(Source: fM
 - You can provide multiple output spaces (separated by a space) 
 
  
-#### 1.4.1 I want denoising via FSL's ICA-AROMA
+#### 1.4.4 I want denoising via FSL's ICA-AROMA
 - Use --use-aroma 
 - Read up: [here](https://fmriprep.org/en/stable/workflows.html?#ica-aroma)
