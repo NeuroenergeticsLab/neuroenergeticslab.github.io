@@ -27,6 +27,6 @@ The architecture at the Neuroenergetics Lab looks like this.
 XNAT can be accesssed via three different ways. (Click on the corresponding links to connect to xnat now):  
 - [XNAT web](https://xnat.tumnic.mgruber.eu/app/template/Login.vm#!). Read about XNAT web [here](https://neuroenergeticslab.github.io/docs/xnat/XNAT_web/)
 - ssh connection `<username@xnat.tumnic.mgruber.eu>`
-- [Jupyter Hub (requires VPN connection)](http://10.0.4.1:8000/hub/login)
+- [Jupyter Hub (requires VPN connection)](http://10.0.4.1:8000/hub/login) [Set up you VPN Connection here](https://neuroenergeticslab.github.io/docs/posts/VPN.html)
 
 _Note: If you are on Research Network you dont need openVPN for Jupyter Hub connection, otherwise you have to connect._
