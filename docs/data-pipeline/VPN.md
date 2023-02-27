@@ -1,3 +1,10 @@
+---
+layout: default
+title: Setup OPEN VPN
+parent: Blog posts
+nav_order: 2
+---
+
 ## Set up OPEN VPN for JupyterHub.
 
 1. Note: *The VPN is based on your davinci credentials. Currently, the PW needs to be updated monthly, but you only get the option to update the PW if you log in via ssh (for example using PuTTy in windows) 
