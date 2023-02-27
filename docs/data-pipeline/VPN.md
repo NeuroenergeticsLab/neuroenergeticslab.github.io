@@ -20,6 +20,6 @@ JupyterHub
 
  
 
-**On mac, download the version for mac OR use [tunnel blick](https://tunnelblick.net/)
+**On mac, download the version for mac OR use [tunnel blick](https://tunnelblick.net/)**
 Install & open tunnel blick 
 Double-click the .ovpn file from Matrin 
