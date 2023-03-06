@@ -83,6 +83,7 @@ Example:
   - csf white_matter dvars framewise_displacement trans_x trans_y trans_z rot_x rot_y rot_z a_comp_cor_01 a_comp_cor_02 ... 
 - **fMRIPrep version/ adapt dataset_decription file**: The BIDS standard changes and new fmriprep Version adapt their output slightly. To work with the task analysis, the dataset_description.json inside the fmriprep resource must be changed from 
 '''
+  
   "GeneratedBy": [ 
   { 
 
